@@ -613,7 +613,9 @@
 <div class="toast" id="toast">APPID COPIED</div>
 
 <script>
-  const API_URL = 'https://steamunlockonennabe.duckdns.org/api/onennabe';
+  // Static data source — data.json sits next to this file in the main branch.
+  // Cache-busted with a timestamp so commits show up without a hard refresh.
+  const DATA_URL = 'data.json';
 
   // Multiple Steam CDN sources tried in order until one loads.
   // Mirrors the fallback chain used elsewhere in the KINGSTORE codebase.
@@ -624,7 +626,7 @@
   ];
 
   // Called from <img onerror> — try the next source in the chain, give up if exhausted.
-  // If the card has a `data-custom-src` (game.header_image from API), that becomes index 0
+  // If the card has a `data-custom-src` (game.header_image from data.json), that becomes index 0
   // and the Akamai chain shifts down by one.
   window.tryNextImage = function(img) {
     const idx = parseInt(img.dataset.srcIdx || '0', 10) + 1;
@@ -742,7 +744,7 @@
     imgs.forEach(img => {
       if (img.dataset.steamQueued) return;
       img.dataset.steamQueued = '1';
-      // Skip if we already have a custom source (from API or cache)
+      // Skip if we already have a custom source (from data.json or cache)
       if (img.dataset.customSrc) return;
 
       const appid = img.dataset.appid;
@@ -818,7 +820,7 @@
     if (game.new) badges.push('<span class="badge badge-new">New</span>');
     if (game.online_supported === 'Yes') badges.push('<span class="badge badge-online">Online</span>');
 
-    // Prefer the real hashed URL when we have one — either from the API (game.header_image)
+    // Prefer the real hashed URL when we have one — either from data.json (game.header_image)
     // or from our localStorage cache populated by hydrateSteamHeaders().
     const cachedHeader = getCachedSteamHeader(game.appid);
     const realHeader = game.header_image || cachedHeader; // string | null | undefined
@@ -1020,14 +1022,14 @@
     });
   });
 
-  // --- Fetch data ---
+  // --- Load static data.json from the repo (bust GitHub Pages' edge cache) ---
   async function loadGames() {
     showSkeletons(8);
     try {
-      const res = await fetch(API_URL, { cache: 'no-store' });
+      const res = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-      if (!Array.isArray(data)) throw new Error('Unexpected response shape');
+      if (!Array.isArray(data)) throw new Error('Unexpected response shape — expected an array');
 
       // Strip hidden fields (defensive — we just never render them)
       state.games = data.map(g => {
@@ -1040,16 +1042,14 @@
     } catch (err) {
       console.error(err);
       showState(
-        `<strong>Couldn't load catalog</strong>${err.message}<br><br>` +
-        `If this is a CORS error, add <code style="color:#ff2e6d">Access-Control-Allow-Origin</code> headers to the Flask API.`,
+        `<strong>Couldn't load data.json</strong>${err.message}<br><br>` +
+        `Make sure <code style="color:#ff2e6d">data.json</code> exists in the same directory on the main branch.`,
         true
       );
     }
   }
 
   loadGames();
-  // Auto-refresh every 5 minutes
-  setInterval(loadGames, 5 * 60 * 1000);
 </script>
 </body>
 </html>
