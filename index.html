@@ -1,127 +1,1055 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kingstore x steam</title>
-    <style>
-        /* Dark "Steam-like" Theme */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1b2838;
-            color: #c7d5e0;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #ffffff;
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        #games-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .game-card {
-            background-color: #2a475e;
-            border-radius: 8px;
-            overflow: hidden;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .game-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.6);
-        }
-        .game-image {
-            width: 100%;
-            height: 140px; /* Steam header aspect ratio */
-            object-fit: cover;
-            background-color: #000;
-        }
-        .game-info {
-            padding: 15px;
-        }
-        .game-title {
-            font-size: 1.2em;
-            margin: 0 0 10px 0;
-            color: #ffffff;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .game-stats {
-            font-size: 0.95em;
-            margin: 5px 0;
-            display: flex;
-            justify-content: space-between;
-        }
-        .stat-label {
-            color: #66c0f4;
-            font-weight: bold;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KINGSTORE</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --bg-grid: #111114;
+    --surface: #15151a;
+    --surface-hi: #1c1c22;
+    --border: #26262e;
+    --border-hi: #34343f;
+    --text: #f2efe9;
+    --text-dim: #8a8590;
+    --text-mute: #5a5662;
+    --accent: #ff2e6d;
+    --accent-soft: rgba(255, 46, 109, 0.12);
+    --warn: #ffd23a;
+    --good: #4ade80;
+    --info: #38bdf8;
+
+    --font-display: 'Unbounded', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  body {
+    background-image:
+      radial-gradient(circle at 20% 0%, rgba(255, 46, 109, 0.08), transparent 50%),
+      radial-gradient(circle at 80% 30%, rgba(56, 189, 248, 0.05), transparent 50%),
+      linear-gradient(var(--bg-grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px);
+    background-size: auto, auto, 48px 48px, 48px 48px;
+    background-position: 0 0, 0 0, -1px -1px, -1px -1px;
+  }
+
+  /* === Header === */
+  header.top {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10, 10, 12, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+  }
+  .top-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-mark {
+    width: 38px; height: 38px;
+    border: 1.5px solid var(--accent);
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .brand-mark::before, .brand-mark::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1.5px solid var(--accent);
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+  .brand-mark::after { inset: 9px; opacity: 0.3; }
+  .brand-text {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .brand-text span {
+    display: block;
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--text-mute);
+    letter-spacing: 0.15em;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+
+  .stats-bar {
+    display: flex;
+    gap: 28px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .stat-num {
+    color: var(--text);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .stat-label {
+    color: var(--text-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+  }
+
+  /* === Hero === */
+  .hero {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 24px 32px;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(40px, 6vw, 84px);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    margin-bottom: 18px;
+  }
+  .hero h1 .accent {
+    color: var(--accent);
+    font-style: italic;
+  }
+  .hero p {
+    color: var(--text-dim);
+    font-size: 16px;
+    max-width: 580px;
+    line-height: 1.5;
+  }
+
+  /* === Controls === */
+  .controls {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px 28px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .search {
+    flex: 1 1 320px;
+    position: relative;
+  }
+  .search input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 14px 16px 14px 44px;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .search input:focus {
+    border-color: var(--accent);
+    background: var(--surface-hi);
+  }
+  .search input::placeholder { color: var(--text-mute); }
+  .search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-mute);
+    pointer-events: none;
+  }
+
+  select.sort, .filter-chip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 14px 16px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    outline: none;
+  }
+  select.sort:hover, .filter-chip:hover {
+    border-color: var(--border-hi);
+  }
+  .filter-chip.active {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* === Grid === */
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+
+  /* === Card === */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s cubic-bezier(.2,.7,.3,1), border-color 0.25s, box-shadow 0.25s;
+    position: relative;
+    animation: fadeIn 0.4s ease-out backwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: 0 12px 32px -8px rgba(255, 46, 109, 0.25);
+  }
+
+  .card-img {
+    position: relative;
+    aspect-ratio: 460 / 215;
+    background: linear-gradient(135deg, #1a1a22 0%, #0f0f14 100%);
+    overflow: hidden;
+  }
+  .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .card-img.fallback::after {
+    content: 'NO IMAGE';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-mute);
+    letter-spacing: 0.2em;
+  }
+
+  .badges {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+  .badge-new {
+    background: var(--accent);
+    color: #0a0a0c;
+  }
+  .badge-online {
+    background: rgba(56, 189, 248, 0.95);
+    color: #001a26;
+  }
+
+  .card-body {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+  .card-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 2.4em;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 12px;
+  }
+  .appid {
+    color: var(--text-mute);
+    cursor: pointer;
+    user-select: all;
+    transition: color 0.15s;
+  }
+  .appid:hover { color: var(--accent); }
+  .appid::before { content: 'ID '; opacity: 0.5; }
+
+  .download-count {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+    font-weight: 600;
+  }
+  .download-count svg { color: var(--accent); }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-mute);
+  }
+  .card-size { color: var(--text-dim); }
+
+  /* === States === */
+  .state {
+    text-align: center;
+    padding: 80px 24px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 14px;
+  }
+  .state strong {
+    color: var(--text);
+    display: block;
+    font-family: var(--font-display);
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .state.error strong { color: var(--accent); }
+
+  .skeleton {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .skeleton-img {
+    aspect-ratio: 460 / 215;
+    background: linear-gradient(90deg, var(--surface) 0%, var(--surface-hi) 50%, var(--surface) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+  }
+  .skeleton-body { padding: 16px 18px; }
+  .skeleton-line {
+    height: 14px;
+    background: linear-gradient(90deg, var(--surface-hi) 0%, var(--border) 50%, var(--surface-hi) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .skeleton-line.short { width: 60%; }
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* === Footer === */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 24px;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-mute);
+    letter-spacing: 0.05em;
+  }
+  footer a { color: var(--text-dim); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+
+  /* Toast for copied appid */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--accent);
+    color: #0a0a0c;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 200;
+  }
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* === Pagination === */
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+    padding: 24px 0 0;
+    border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: var(--font-mono);
+  }
+  .page-info {
+    color: var(--text-dim);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+  .page-info strong {
+    color: var(--text);
+    font-weight: 700;
+  }
+  .page-controls {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .page-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 9px 14px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+    min-width: 38px;
+    text-align: center;
+  }
+  .page-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .page-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0a0a0c;
+    font-weight: 700;
+  }
+  .page-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  .page-ellipsis {
+    color: var(--text-mute);
+    padding: 0 6px;
+    font-size: 12px;
+  }
+  .page-size {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: var(--text-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .page-size select {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  .page-size select:hover { border-color: var(--border-hi); }
+
+  @media (max-width: 600px) {
+    .hero { padding: 36px 20px 24px; }
+    .controls { padding: 0 20px 20px; }
+    main { padding: 0 20px 60px; }
+    .grid { grid-template-columns: 1fr; gap: 14px; }
+    .stats-bar { gap: 16px; }
+  }
+</style>
 </head>
 <body>
 
-    <h1>kingstore x steam</h1>
-    
-    <div id="games-container"></div>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-text">
+        KINGSTORE
+        <span>GAME INDEX</span>
+      </div>
+    </div>
+    <div class="stats-bar" id="statsBar">
+      <div class="stat">
+        <span class="stat-num" id="statGames">—</span>
+        <span class="stat-label">Games</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="statDownloads">—</span>
+        <span class="stat-label">Downloads</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="statNew">—</span>
+        <span class="stat-label">New</span>
+      </div>
+    </div>
+  </div>
+</header>
 
-    <script>
-        // Points to the data.json file in the same repository
-        const dataUrl = 'data.json';
+<section class="hero">
+  <h1>Kingstore.</h1>
+  <p>Reference index of game titles.</p>
+</section>
 
-        // Fetch the JSON data
-        fetch(dataUrl)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Could not fetch data.json');
-                }
-                return response.json();
-            })
-            .then(games => {
-                const container = document.getElementById('games-container');
+<section class="controls">
+  <div class="search">
+    <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"/>
+      <path d="m21 21-4.3-4.3"/>
+    </svg>
+    <input type="text" id="searchInput" placeholder="Search by name or appid..." autocomplete="off">
+  </div>
+  <select class="sort" id="sortSelect">
+    <option value="newest">Sort: Newest first</option>
+    <option value="oldest">Sort: Oldest first</option>
+    <option value="downloads">Sort: Most downloaded</option>
+    <option value="name">Sort: A → Z</option>
+  </select>
+  <button class="filter-chip" id="filterNew">★ New only</button>
+</section>
 
-                // Loop through each game in your JSON array
-                games.forEach(game => {
-                    const card = document.createElement('div');
-                    card.className = 'game-card';
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="state" id="state" style="display:none;"></div>
+  <nav class="pagination" id="pagination" style="display:none;">
+    <div class="page-info" id="pageInfo"></div>
+    <div class="page-controls" id="pageControls"></div>
+    <div class="page-size">
+      Per page
+      <select id="pageSizeSelect">
+        <option value="24">24</option>
+        <option value="48">48</option>
+        <option value="96">96</option>
+        <option value="192">192</option>
+      </select>
+    </div>
+  </nav>
+</main>
 
-                    // Construct the Steam CDN URL using the appid
-                    const imgUrl = `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
+<footer>
+  KINGSTORE &nbsp;·&nbsp; Images © Valve Corporation
+</footer>
 
-                    // Populate the card with HTML
-                    card.innerHTML = `
-                        <img class="game-image" src="${imgUrl}" alt="${game.name} header" loading="lazy" onerror="this.src='https://via.placeholder.com/300x140/000000/FFFFFF?text=No+Image'">
-                        <div class="game-info">
-                            <h2 class="game-title" title="${game.name}">${game.name}</h2>
-                            <div class="game-stats">
-                                <span class="stat-label">AppID:</span> 
-                                <span>${game.appid}</span>
-                            </div>
-                            <div class="game-stats">
-                                <span class="stat-label">Downloads:</span> 
-                                <span>${game.downloads}</span>
-                            </div>
-                        </div>
-                    `;
+<div class="toast" id="toast">APPID COPIED</div>
 
-                    container.appendChild(card);
-                });
-            })
-            .catch(error => {
-                console.error('Error loading games:', error);
-                document.getElementById('games-container').innerHTML = '<p style="color: red; text-align: center;">Error loading games. Please make sure data.json exists in the repository.</p>';
-            });
-    </script>
+<script>
+  const API_URL = 'https://steamunlockonennabe.duckdns.org/api/onennabe';
+
+  // Multiple Steam CDN sources tried in order until one loads.
+  // Mirrors the fallback chain used elsewhere in the KINGSTORE codebase.
+  const IMAGE_SOURCES = [
+    appid => `https://steamcdn-a.akamaihd.net/steam/apps/${appid}/header.jpg`,
+    appid => `https://cdn.akamai.steamstatic.com/steam/apps/${appid}/header.jpg`,
+    appid => `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${appid}/header.jpg`,
+  ];
+
+  // Called from <img onerror> — try the next source in the chain, give up if exhausted.
+  // If the card has a `data-custom-src` (game.header_image from API), that becomes index 0
+  // and the Akamai chain shifts down by one.
+  window.tryNextImage = function(img) {
+    const idx = parseInt(img.dataset.srcIdx || '0', 10) + 1;
+    const appid = img.dataset.appid;
+    const customSrc = img.dataset.customSrc;
+    const chain = customSrc ? [() => customSrc, ...IMAGE_SOURCES] : IMAGE_SOURCES;
+
+    if (idx < chain.length) {
+      img.dataset.srcIdx = idx;
+      img.src = chain[idx](appid);
+    } else {
+      img.parentElement.classList.add('fallback');
+      img.remove();
+    }
+  };
+
+  // === Steam header_image fetcher (client-side, via CORS proxy, localStorage cached) ===
+  // Steam's appdetails API doesn't send CORS headers and no longer honors JSONP callbacks,
+  // so we route through corsproxy.io — its free tier allows github.io origins at
+  // 10k req/month, way more than we need since results are cached per appid.
+  const STEAM_CACHE_KEY = 'kingstore_steam_headers_v2';
+  const STEAM_CACHE_TTL = 30 * 24 * 60 * 60 * 1000; // 30 days
+  // corsproxy.io free tier caps at 60 requests/minute, so one request per ~1.1s.
+  const STEAM_MAX_CONCURRENT = 1;
+  const STEAM_REQUEST_DELAY = 1100;
+  const STEAM_CORS_PROXY = 'https://corsproxy.io/?url=';
+
+  let steamCache = {};
+  try {
+    steamCache = JSON.parse(localStorage.getItem(STEAM_CACHE_KEY) || '{}');
+  } catch { steamCache = {}; }
+
+  function saveSteamCache() {
+    try {
+      localStorage.setItem(STEAM_CACHE_KEY, JSON.stringify(steamCache));
+    } catch {
+      // Quota exceeded — drop the oldest half and retry once.
+      const entries = Object.entries(steamCache);
+      entries.sort((a, b) => (a[1].t || 0) - (b[1].t || 0));
+      steamCache = Object.fromEntries(entries.slice(Math.floor(entries.length / 2)));
+      try { localStorage.setItem(STEAM_CACHE_KEY, JSON.stringify(steamCache)); } catch {}
+    }
+  }
+
+  // Returns: hashed URL string, null (tried, no image), or undefined (never tried / expired).
+  function getCachedSteamHeader(appid) {
+    const entry = steamCache[String(appid)];
+    if (!entry) return undefined;
+    if (Date.now() - (entry.t || 0) > STEAM_CACHE_TTL) return undefined;
+    return entry.u || null;
+  }
+
+  async function fetchSteamHeader(appid) {
+    const targetUrl = `https://store.steampowered.com/api/appdetails?appids=${appid}&filters=basic`;
+    const proxyUrl = STEAM_CORS_PROXY + encodeURIComponent(targetUrl);
+    let result = null;
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 12000);
+      const res = await fetch(proxyUrl, { signal: controller.signal });
+      clearTimeout(timer);
+      if (!res.ok) {
+        console.warn(`[steam] ${appid}: HTTP ${res.status} from proxy`);
+      } else {
+        const data = await res.json();
+        const entry = data && data[String(appid)];
+        if (entry && entry.success && entry.data && entry.data.header_image) {
+          result = entry.data.header_image;
+          console.log(`[steam] ${appid}: got hashed URL`);
+        } else {
+          console.warn(`[steam] ${appid}: no header_image in response`, entry);
+        }
+      }
+    } catch (err) {
+      console.warn(`[steam] ${appid}: fetch failed`, err.message);
+    }
+
+    steamCache[String(appid)] = { u: result, t: Date.now() };
+    saveSteamCache();
+    return result;
+  }
+
+  // Throttled queue so we don't hammer the proxy.
+  const _steamQueue = [];
+  let _steamActive = 0;
+
+  function queueSteamFetch(appid, onResult) {
+    const cached = getCachedSteamHeader(appid);
+    if (cached !== undefined) {
+      onResult(cached);
+      return;
+    }
+    _steamQueue.push({ appid, onResult });
+    processSteamQueue();
+  }
+
+  function processSteamQueue() {
+    while (_steamActive < STEAM_MAX_CONCURRENT && _steamQueue.length > 0) {
+      const job = _steamQueue.shift();
+      _steamActive++;
+      fetchSteamHeader(job.appid).then(url => {
+        try { job.onResult(url); } catch {}
+        setTimeout(() => {
+          _steamActive--;
+          processSteamQueue();
+        }, STEAM_REQUEST_DELAY);
+      });
+    }
+  }
+
+  // After a page renders, kick off Steam fetches for any visible cards that
+  // don't have a cached/server-provided header_image yet.
+  function hydrateSteamHeaders() {
+    const imgs = grid.querySelectorAll('img[data-appid]');
+    imgs.forEach(img => {
+      if (img.dataset.steamQueued) return;
+      img.dataset.steamQueued = '1';
+      // Skip if we already have a custom source (from API or cache)
+      if (img.dataset.customSrc) return;
+
+      const appid = img.dataset.appid;
+      queueSteamFetch(appid, (url) => {
+        if (!url || !img.isConnected) return;
+        // Swap in the real hashed URL and reset the fallback chain.
+        img.dataset.customSrc = url;
+        img.dataset.srcIdx = '0';
+        img.src = url;
+        const parent = img.parentElement;
+        if (parent) {
+          parent.classList.remove('fallback');
+          if (!parent.contains(img)) parent.appendChild(img);
+        }
+      });
+    });
+  }
+
+  const state = {
+    games: [],
+    filtered: [],
+    search: '',
+    sort: 'newest',
+    onlyNew: false,
+    currentPage: 1,
+    pageSize: 24,
+  };
+
+  const grid = document.getElementById('grid');
+  const stateEl = document.getElementById('state');
+  const searchInput = document.getElementById('searchInput');
+  const sortSelect = document.getElementById('sortSelect');
+  const filterNewBtn = document.getElementById('filterNew');
+  const toast = document.getElementById('toast');
+  const pagination = document.getElementById('pagination');
+  const pageInfo = document.getElementById('pageInfo');
+  const pageControls = document.getElementById('pageControls');
+  const pageSizeSelect = document.getElementById('pageSizeSelect');
+
+  // --- Loading skeleton ---
+  function showSkeletons(n = 8) {
+    grid.innerHTML = '';
+    stateEl.style.display = 'none';
+    for (let i = 0; i < n; i++) {
+      const sk = document.createElement('div');
+      sk.className = 'skeleton';
+      sk.innerHTML = `
+        <div class="skeleton-img"></div>
+        <div class="skeleton-body">
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line short"></div>
+        </div>`;
+      grid.appendChild(sk);
+    }
+  }
+
+  function showState(msg, isError = false) {
+    grid.innerHTML = '';
+    stateEl.style.display = 'block';
+    stateEl.className = 'state' + (isError ? ' error' : '');
+    stateEl.innerHTML = msg;
+  }
+
+  // --- Number formatting ---
+  function fmtNum(n) {
+    if (n >= 1000) return (n / 1000).toFixed(1).replace('.0', '') + 'k';
+    return String(n);
+  }
+
+  // --- Render a single card ---
+  function cardHTML(game, idx) {
+    const badges = [];
+    if (game.new) badges.push('<span class="badge badge-new">New</span>');
+    if (game.online_supported === 'Yes') badges.push('<span class="badge badge-online">Online</span>');
+
+    // Prefer the real hashed URL when we have one — either from the API (game.header_image)
+    // or from our localStorage cache populated by hydrateSteamHeaders().
+    const cachedHeader = getCachedSteamHeader(game.appid);
+    const realHeader = game.header_image || cachedHeader; // string | null | undefined
+    const initialSrc = realHeader || IMAGE_SOURCES[0](game.appid);
+    const customAttr = realHeader ? ` data-custom-src="${escapeHtml(realHeader)}"` : '';
+
+    return `
+      <article class="card" style="animation-delay:${Math.min(idx * 30, 600)}ms;">
+        <div class="card-img" data-appid="${game.appid}">
+          <img src="${initialSrc}" alt="${escapeHtml(game.name)}" loading="lazy"
+               data-appid="${game.appid}" data-src-idx="0"${customAttr}
+               onerror="tryNextImage(this)">
+          ${badges.length ? `<div class="badges">${badges.join('')}</div>` : ''}
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">${escapeHtml(game.name)}</h3>
+          <div class="card-meta">
+            <span class="appid" title="Click to copy" data-copy="${game.appid}">${game.appid}</span>
+            <span class="download-count" title="Downloads">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              ${fmtNum(game.downloads || 0)}
+            </span>
+          </div>
+          <div class="card-footer">
+            <span class="card-size">${escapeHtml(game.size_gb || '—')}</span>
+            <span>${formatDate(game.added_on)}</span>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? '')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  function formatDate(s) {
+    if (!s) return '';
+    const d = new Date(s.replace(' ', 'T'));
+    if (isNaN(d)) return s;
+    const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+    if (days === 0) return 'Today';
+    if (days === 1) return 'Yesterday';
+    if (days < 30) return days + 'd ago';
+    if (days < 365) return Math.floor(days / 30) + 'mo ago';
+    return Math.floor(days / 365) + 'y ago';
+  }
+
+  // --- Apply filters + sort ---
+  function applyFilters() {
+    state.currentPage = 1; // any change to filters/sort/search resets to first page
+    let arr = state.games.slice();
+
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      arr = arr.filter(g =>
+        (g.name || '').toLowerCase().includes(q) ||
+        String(g.appid).includes(q)
+      );
+    }
+    if (state.onlyNew) arr = arr.filter(g => g.new);
+
+    switch (state.sort) {
+      case 'newest':
+        arr.sort((a, b) => (b.added_on || '').localeCompare(a.added_on || ''));
+        break;
+      case 'oldest':
+        arr.sort((a, b) => (a.added_on || '').localeCompare(b.added_on || ''));
+        break;
+      case 'downloads':
+        arr.sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
+        break;
+      case 'name':
+        arr.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+        break;
+    }
+
+    state.filtered = arr;
+    render();
+  }
+
+  function render() {
+    if (!state.filtered.length) {
+      showState('<strong>No matches</strong>Try a different search or clear your filters.');
+      pagination.style.display = 'none';
+      return;
+    }
+    stateEl.style.display = 'none';
+
+    const total = state.filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / state.pageSize));
+    if (state.currentPage > totalPages) state.currentPage = totalPages;
+    if (state.currentPage < 1) state.currentPage = 1;
+
+    const start = (state.currentPage - 1) * state.pageSize;
+    const end = Math.min(start + state.pageSize, total);
+    const pageItems = state.filtered.slice(start, end);
+
+    grid.innerHTML = pageItems.map((g, i) => cardHTML(g, i)).join('');
+    renderPagination(totalPages, start, end, total);
+    hydrateSteamHeaders();
+  }
+
+  function renderPagination(totalPages, start, end, total) {
+    pagination.style.display = 'flex';
+    pageInfo.innerHTML = `Showing <strong>${start + 1}–${end}</strong> of <strong>${total.toLocaleString()}</strong>`;
+
+    if (totalPages <= 1) {
+      pageControls.innerHTML = '';
+      return;
+    }
+
+    const pages = getPageList(state.currentPage, totalPages);
+    let html = '';
+    html += `<button class="page-btn" ${state.currentPage === 1 ? 'disabled' : ''} data-page="${state.currentPage - 1}">‹ Prev</button>`;
+    for (const p of pages) {
+      if (p === '...') {
+        html += '<span class="page-ellipsis">…</span>';
+      } else {
+        html += `<button class="page-btn${p === state.currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`;
+      }
+    }
+    html += `<button class="page-btn" ${state.currentPage === totalPages ? 'disabled' : ''} data-page="${state.currentPage + 1}">Next ›</button>`;
+    pageControls.innerHTML = html;
+  }
+
+  // Compact page list: 1 … 4 5 [6] 7 8 … 125
+  function getPageList(current, total) {
+    const delta = 2;
+    const pages = [];
+    pages.push(1);
+    if (current - delta > 2) pages.push('...');
+    for (let i = Math.max(2, current - delta); i <= Math.min(total - 1, current + delta); i++) {
+      pages.push(i);
+    }
+    if (current + delta < total - 1) pages.push('...');
+    if (total > 1) pages.push(total);
+    return pages;
+  }
+
+  function updateStats() {
+    document.getElementById('statGames').textContent = state.games.length;
+    const totalDl = state.games.reduce((s, g) => s + (g.downloads || 0), 0);
+    document.getElementById('statDownloads').textContent = fmtNum(totalDl);
+    document.getElementById('statNew').textContent = state.games.filter(g => g.new).length;
+  }
+
+  // --- Events ---
+  searchInput.addEventListener('input', e => {
+    state.search = e.target.value.trim();
+    applyFilters();
+  });
+  sortSelect.addEventListener('change', e => {
+    state.sort = e.target.value;
+    applyFilters();
+  });
+  filterNewBtn.addEventListener('click', () => {
+    state.onlyNew = !state.onlyNew;
+    filterNewBtn.classList.toggle('active', state.onlyNew);
+    applyFilters();
+  });
+
+  // Page size selector
+  pageSizeSelect.addEventListener('change', e => {
+    state.pageSize = parseInt(e.target.value, 10);
+    state.currentPage = 1;
+    render();
+  });
+
+  // Pagination click handler (event delegation on pageControls)
+  pageControls.addEventListener('click', e => {
+    const btn = e.target.closest('[data-page]');
+    if (!btn || btn.disabled) return;
+    const p = parseInt(btn.dataset.page, 10);
+    if (isNaN(p)) return;
+    state.currentPage = p;
+    render();
+    // Scroll back up to the top of the grid so the new page is in view
+    const main = document.querySelector('main');
+    const headerH = document.querySelector('header.top').offsetHeight;
+    window.scrollTo({ top: main.offsetTop - headerH - 16, behavior: 'smooth' });
+  });
+
+  // Click appid to copy
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-copy]');
+    if (!el) return;
+    const val = el.getAttribute('data-copy');
+    navigator.clipboard.writeText(val).then(() => {
+      toast.textContent = 'APPID ' + val + ' COPIED';
+      toast.classList.add('show');
+      clearTimeout(toast._t);
+      toast._t = setTimeout(() => toast.classList.remove('show'), 1500);
+    });
+  });
+
+  // --- Fetch data ---
+  async function loadGames() {
+    showSkeletons(8);
+    try {
+      const res = await fetch(API_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if (!Array.isArray(data)) throw new Error('Unexpected response shape');
+
+      // Strip hidden fields (defensive — we just never render them)
+      state.games = data.map(g => {
+        const { hypervisor_bypass, bypass_supported, requires_membership, ...rest } = g;
+        return rest;
+      });
+
+      updateStats();
+      applyFilters();
+    } catch (err) {
+      console.error(err);
+      showState(
+        `<strong>Couldn't load catalog</strong>${err.message}<br><br>` +
+        `If this is a CORS error, add <code style="color:#ff2e6d">Access-Control-Allow-Origin</code> headers to the Flask API.`,
+        true
+      );
+    }
+  }
+
+  loadGames();
+  // Auto-refresh every 5 minutes
+  setInterval(loadGames, 5 * 60 * 1000);
+</script>
 </body>
 </html>
