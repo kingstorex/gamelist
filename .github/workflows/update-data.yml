@@ -16,9 +16,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch API and save to data.json
+      - name: Fetch API, filter unused data, and save to data.json
         run: |
-          curl -sL https://steamunlockonennabe.duckdns.org/api/onennabe -o data.json
+          # Fetch the JSON, pipe it to jq to extract only the necessary fields, and save it
+          curl -sL https://steamunlockonennabe.duckdns.org/api/onennabe | jq 'map({name, appid, downloads})' > data.json
 
       - name: Commit and push if changed
         run: |
@@ -26,4 +27,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data.json
           # This line checks if data.json actually changed before trying to commit
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update game data" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update and filter game data" && git push)
