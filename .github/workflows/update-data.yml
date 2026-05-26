@@ -15,10 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch API, filter unused data, and save to data.json
+      - name: Fetch API, filter games, strip details, and save to data.json
         run: |
-          # Fetch the JSON, pipe it to jq to extract only the necessary fields, and save it
-          curl -sL https://steamunlockonennabe.duckdns.org/api/onennabe | jq 'map({name, appid, downloads})' > data.json
+          # Fetch JSON, filter out unwanted games, then extract only necessary fields
+          curl -sL https://steamunlockonennabe.duckdns.org/api/onennabe | jq 'map(select(.requires_membership == false and .hypervisor_bypass == 0) | {name, appid, downloads})' > data.json
 
       - name: Commit and push if changed
         run: |
