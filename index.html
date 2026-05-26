@@ -5,90 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kingstore x steam</title>
     <style>
-        /* Modern Dark Theme Styling */
+        /* Dark "Steam-like" Theme */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            background-color: #1b2838;
+            color: #c7d5e0;
             margin: 0;
             padding: 20px;
         }
-
         h1 {
             text-align: center;
+            color: #ffffff;
             font-size: 2.5em;
+            margin-bottom: 30px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color: #fff;
-            margin-bottom: 30px;
         }
-
-        /* Responsive Grid Layout */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 25px;
+        #games-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
             max-width: 1200px;
             margin: 0 auto;
         }
-
-        /* Game Card Styling */
-        .card {
-            background-color: #1e1e1e;
-            border-radius: 10px;
+        .game-card {
+            background-color: #2a475e;
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-
-        .card:hover {
+        .game-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.6);
         }
-
-        .card img {
+        .game-image {
             width: 100%;
-            height: auto;
-            display: block;
-            border-bottom: 3px solid #3a3a3a;
+            height: 140px; /* Steam header aspect ratio */
+            object-fit: cover;
+            background-color: #000;
         }
-
-        .card-content {
-            padding: 20px;
+        .game-info {
+            padding: 15px;
         }
-
         .game-title {
-            font-size: 1.4em;
-            font-weight: 700;
+            font-size: 1.2em;
+            margin: 0 0 10px 0;
             color: #ffffff;
-            margin-bottom: 15px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
-
-        .game-stat {
+        .game-stats {
             font-size: 0.95em;
-            color: #aaaaaa;
-            margin-bottom: 8px;
+            margin: 5px 0;
             display: flex;
             justify-content: space-between;
         }
-
         .stat-label {
-            font-weight: 600;
-            color: #cccccc;
-        }
-
-        /* Utility classes */
-        .status-message {
-            text-align: center;
-            grid-column: 1 / -1;
-            font-size: 1.2em;
-            padding: 20px;
-        }
-        .error {
-            color: #ff5555;
+            color: #66c0f4;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -96,78 +74,54 @@
 
     <h1>kingstore x steam</h1>
     
-    <div class="grid-container" id="games-grid">
-        <div class="status-message">Loading games...</div>
-    </div>
+    <div id="games-container"></div>
 
     <script>
-        // Function to render the UI cards
-        function renderGames(games) {
-            const grid = document.getElementById('games-grid');
-            grid.innerHTML = ''; // Clear the loading message
+        // Points to the data.json file in the same repository
+        const dataUrl = 'data.json';
 
-            if (!games || games.length === 0) {
-                grid.innerHTML = '<div class="status-message">No games found.</div>';
-                return;
-            }
-
-            games.forEach(game => {
-                // Construct the Steam CDN image URL using the AppID
-                const steamImageURL = `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
-
-                // Create the card container
-                const card = document.createElement('div');
-                card.className = 'card';
-
-                // Notice how hypervisor_bypass and requires_membership are completely omitted from the UI
-                card.innerHTML = `
-                    <img src="${steamImageURL}" alt="${game.name} Banner" loading="lazy" 
-                         onerror="this.src='https://placehold.co/460x215/1e1e1e/FFF?text=Image+Not+Found'">
-                    <div class="card-content">
-                        <div class="game-title" title="${game.name}">${game.name}</div>
-                        
-                        <div class="game-stat">
-                            <span class="stat-label">AppID:</span>
-                            <span>${game.appid}</span>
-                        </div>
-                        
-                        <div class="game-stat">
-                            <span class="stat-label">Downloads:</span>
-                            <span>${game.downloads}</span>
-                        </div>
-                    </div>
-                `;
-
-                grid.appendChild(card);
-            });
-        }
-
-                // Function to fetch the local JSON in real-time
-        async function fetchLiveGames() {
-            const grid = document.getElementById('games-grid');
-            
-            try {
-                // Fetching the local file created by GitHub Actions instead of the live API
-                // Add a cache-busting parameter so browsers don't load a stale, cached version
-                const response = await fetch('data.json?v=' + new Date().getTime());
-                
+        // Fetch the JSON data
+        fetch(dataUrl)
+            .then(response => {
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error('Could not fetch data.json');
                 }
-                
-                const data = await response.json();
-                renderGames(data);
-                
-            } catch (error) {
-                console.error("Failed to load local data:", error);
-                grid.innerHTML = `
-                    <div class="status-message error">
-                        Waiting for data to generate...<br><br>
-                        <small>If you just set up the site, give GitHub Actions a moment to fetch the initial data.</small>
-                    </div>`;
-            }
-        }
+                return response.json();
+            })
+            .then(games => {
+                const container = document.getElementById('games-container');
 
+                // Loop through each game in your JSON array
+                games.forEach(game => {
+                    const card = document.createElement('div');
+                    card.className = 'game-card';
+
+                    // Construct the Steam CDN URL using the appid
+                    const imgUrl = `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
+
+                    // Populate the card with HTML
+                    card.innerHTML = `
+                        <img class="game-image" src="${imgUrl}" alt="${game.name} header" loading="lazy" onerror="this.src='https://via.placeholder.com/300x140/000000/FFFFFF?text=No+Image'">
+                        <div class="game-info">
+                            <h2 class="game-title" title="${game.name}">${game.name}</h2>
+                            <div class="game-stats">
+                                <span class="stat-label">AppID:</span> 
+                                <span>${game.appid}</span>
+                            </div>
+                            <div class="game-stats">
+                                <span class="stat-label">Downloads:</span> 
+                                <span>${game.downloads}</span>
+                            </div>
+                        </div>
+                    `;
+
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading games:', error);
+                document.getElementById('games-container').innerHTML = '<p style="color: red; text-align: center;">Error loading games. Please make sure data.json exists in the repository.</p>';
+            });
     </script>
 </body>
 </html>
