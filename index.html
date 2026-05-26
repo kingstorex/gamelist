@@ -142,13 +142,14 @@
             });
         }
 
-        // Function to fetch the API in real-time
+                // Function to fetch the local JSON in real-time
         async function fetchLiveGames() {
             const grid = document.getElementById('games-grid');
             
             try {
-                // Fetching your custom API endpoint
-                const response = await fetch('https://steamunlockonennabe.duckdns.org/api/onennabe');
+                // Fetching the local file created by GitHub Actions instead of the live API
+                // Add a cache-busting parameter so browsers don't load a stale, cached version
+                const response = await fetch('data.json?v=' + new Date().getTime());
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -158,18 +159,15 @@
                 renderGames(data);
                 
             } catch (error) {
-                console.error("Failed to load games API:", error);
-                // If fetch fails (e.g., server offline or CORS error), display this message
+                console.error("Failed to load local data:", error);
                 grid.innerHTML = `
                     <div class="status-message error">
-                        Failed to load API data.<br><br>
-                        <small>Check browser console for details. Ensure your DuckDNS server has CORS configured correctly.</small>
+                        Waiting for data to generate...<br><br>
+                        <small>If you just set up the site, give GitHub Actions a moment to fetch the initial data.</small>
                     </div>`;
             }
         }
 
-        // Trigger the fetch as soon as the script loads
-        fetchLiveGames();
     </script>
 </body>
 </html>
