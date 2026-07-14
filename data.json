@@ -1,5 +1,15 @@
 [
   {
+    "name": "Phantom Tower",
+    "appid": "3988410",
+    "downloads": 0
+  },
+  {
+    "name": "KAZ",
+    "appid": "3633760",
+    "downloads": 0
+  },
+  {
     "name": "Forensics: Crime Scene Detective",
     "appid": "3765010",
     "downloads": 11
@@ -12,17 +22,17 @@
   {
     "name": "Ascend to ZERO",
     "appid": "2697940",
-    "downloads": 4
+    "downloads": 5
   },
   {
     "name": "もかラブReLive♪",
     "appid": "4033150",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "WILD HEARTS™",
     "appid": "1938010",
-    "downloads": 32
+    "downloads": 33
   },
   {
     "name": "Please Teach Me Onedari Shogi",
@@ -67,12 +77,12 @@
   {
     "name": "Queen's Gamble",
     "appid": "4707200",
-    "downloads": 47
+    "downloads": 48
   },
   {
     "name": "Psalm 2",
     "appid": "3916260",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "Backyard Baseball",
@@ -102,7 +112,7 @@
   {
     "name": "Moonlight Peaks",
     "appid": "2209900",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Destiny of Immortal",
@@ -437,7 +447,7 @@
   {
     "name": "Cafe Crew Simulator",
     "appid": "3816420",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "R-Type Tactics I • II Cosmos",
@@ -1067,7 +1077,7 @@
   {
     "name": "Ghost of Tokyo",
     "appid": "4620930",
-    "downloads": 204
+    "downloads": 205
   },
   {
     "name": "Beat The Champions",
@@ -1152,7 +1162,7 @@
   {
     "name": "007 First Light",
     "appid": "3768760",
-    "downloads": 1908
+    "downloads": 1909
   },
   {
     "name": "Black Hole Fishing",
@@ -1442,7 +1452,7 @@
   {
     "name": "Forza Horizon 6",
     "appid": "2483190",
-    "downloads": 2994
+    "downloads": 2996
   },
   {
     "name": "Before Closure",
@@ -3832,7 +3842,7 @@
   {
     "name": "Call of Duty®: Modern Warfare® 3 (2011)",
     "appid": "42680",
-    "downloads": 158
+    "downloads": 159
   },
   {
     "name": "Photography Agency",
@@ -4097,7 +4107,7 @@
   {
     "name": "Grand Theft Auto V Enhanced",
     "appid": "3240220",
-    "downloads": 530
+    "downloads": 531
   },
   {
     "name": "Bus Flipper Simulator",
@@ -6562,7 +6572,7 @@
   {
     "name": "Battlefield™ 6",
     "appid": "2807960",
-    "downloads": 330
+    "downloads": 331
   },
   {
     "name": "Tingus Goose",
@@ -7712,7 +7722,7 @@
   {
     "name": "Call of Duty®: Modern Warfare®",
     "appid": "2000950",
-    "downloads": 420
+    "downloads": 421
   },
   {
     "name": "Warside",
@@ -10107,7 +10117,7 @@
   {
     "name": "Mafia: The Old Country",
     "appid": "1941540",
-    "downloads": 606
+    "downloads": 607
   },
   {
     "name": "Is This Seat Taken?",
@@ -19147,7 +19157,7 @@
   {
     "name": "嗜血印 Bloody Spell",
     "appid": "992300",
-    "downloads": 70
+    "downloads": 71
   },
   {
     "name": "孟德大小姐与自爆少年",
@@ -29772,7 +29782,7 @@
   {
     "name": "UNCHARTED™: Legacy of Thieves Collection",
     "appid": "1659420",
-    "downloads": 401
+    "downloads": 403
   },
   {
     "name": "Wang Yi - Officer Ticket / 王異使用券",
@@ -39927,7 +39937,7 @@
   {
     "name": "The Last of Us™ Part I",
     "appid": "1888930",
-    "downloads": 469
+    "downloads": 471
   },
   {
     "name": "The Night Way Home | 帰り道",
@@ -66207,7 +66217,7 @@
   {
     "name": "Bodycam",
     "appid": "2406770",
-    "downloads": 206
+    "downloads": 207
   },
   {
     "name": "Bean Battles",
@@ -67512,7 +67522,7 @@
   {
     "name": "Baldur's Gate 3",
     "appid": "1086940",
-    "downloads": 228
+    "downloads": 229
   },
   {
     "name": "BZZZT",
@@ -77572,7 +77582,7 @@
   {
     "name": "Deadpool",
     "appid": "224060",
-    "downloads": 29
+    "downloads": 30
   },
   {
     "name": "Coin Dash",
@@ -87487,7 +87497,7 @@
   {
     "name": "EA SPORTS™ FIFA 21",
     "appid": "1313860",
-    "downloads": 68
+    "downloads": 69
   },
   {
     "name": "Draft Day Sports Pro Basketball 4",
@@ -94452,7 +94462,7 @@
   {
     "name": "Far Cry 5",
     "appid": "552520",
-    "downloads": 146
+    "downloads": 147
   },
   {
     "name": "Football Simulator",
@@ -104142,7 +104152,7 @@
   {
     "name": "Food Truck Simulator",
     "appid": "1160920",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Ex-Zodiac",
@@ -108647,7 +108657,7 @@
   {
     "name": "Grounded",
     "appid": "962130",
-    "downloads": 152
+    "downloads": 153
   },
   {
     "name": "Hector: Ep 2",
@@ -111932,7 +111942,7 @@
   {
     "name": "God of War",
     "appid": "1593500",
-    "downloads": 437
+    "downloads": 438
   },
   {
     "name": "Hill Climb",
@@ -115937,7 +115947,7 @@
   {
     "name": "Mafia II: Definitive Edition",
     "appid": "1030830",
-    "downloads": 63
+    "downloads": 64
   },
   {
     "name": "KARMA: The Dark World",
@@ -116302,7 +116312,7 @@
   {
     "name": "Mafia III: Definitive Edition",
     "appid": "360430",
-    "downloads": 81
+    "downloads": 82
   },
   {
     "name": "Jerry and the mystery loot box",
@@ -116582,7 +116592,7 @@
   {
     "name": "Mafia: Definitive Edition",
     "appid": "1030840",
-    "downloads": 133
+    "downloads": 134
   },
   {
     "name": "Lots of Balls",
@@ -143182,7 +143192,7 @@
   {
     "name": "Resident Evil 7 Biohazard",
     "appid": "418370",
-    "downloads": 164
+    "downloads": 165
   },
   {
     "name": "Perfect Gold",
@@ -154342,7 +154352,7 @@
   {
     "name": "Ready or Not",
     "appid": "1144200",
-    "downloads": 348
+    "downloads": 350
   },
   {
     "name": "Pieces of Me: Northbound",
@@ -155677,7 +155687,7 @@
   {
     "name": "Sekiro™: Shadows Die Twice",
     "appid": "814380",
-    "downloads": 290
+    "downloads": 291
   },
   {
     "name": "Seven Bullets Zombie Apocalypse",
@@ -159177,7 +159187,7 @@
   {
     "name": "SILENT BREATH",
     "appid": "2796180",
-    "downloads": 3
+    "downloads": 4
   },
   {
     "name": "Shadowgate",
@@ -160047,7 +160057,7 @@
   {
     "name": "Palworld",
     "appid": "1623730",
-    "downloads": 323
+    "downloads": 326
   },
   {
     "name": "ScourgeBringer",
