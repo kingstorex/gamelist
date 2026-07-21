@@ -1,5 +1,65 @@
 [
   {
+    "name": "Toll Plaza Simulator",
+    "appid": "4808280",
+    "downloads": 1
+  },
+  {
+    "name": "Hydro Chicks",
+    "appid": "4743640",
+    "downloads": 0
+  },
+  {
+    "name": "Red Flag",
+    "appid": "4601770",
+    "downloads": 0
+  },
+  {
+    "name": "Advent: Dawn",
+    "appid": "3820260",
+    "downloads": 0
+  },
+  {
+    "name": "Waifu Discovered 3: Cyberpunk Fantasy",
+    "appid": "3607040",
+    "downloads": 0
+  },
+  {
+    "name": "Sweetcore Brews: anime otome sim",
+    "appid": "2562430",
+    "downloads": 0
+  },
+  {
+    "name": "Try Dying",
+    "appid": "2493920",
+    "downloads": 0
+  },
+  {
+    "name": "Fading Echo",
+    "appid": "2467880",
+    "downloads": 0
+  },
+  {
+    "name": "Untold Atlas: anime otome sim",
+    "appid": "2446510",
+    "downloads": 0
+  },
+  {
+    "name": "Railway Fun - Adventure Park",
+    "appid": "2126120",
+    "downloads": 0
+  },
+  {
+    "name": "Live Art",
+    "appid": "2108310",
+    "downloads": 0
+  },
+  {
+    "name": "Wizard Gold",
+    "appid": "873260",
+    "downloads": 0
+  },
+  {
     "name": "Grandpa High On Retro",
     "appid": "2967320",
     "downloads": 1
@@ -37,7 +97,7 @@
   {
     "name": "Trench Tales",
     "appid": "2214220",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Fixer Undercover",
@@ -132,7 +192,7 @@
   {
     "name": "Subway Builder",
     "appid": "4039140",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Project Threshold",
@@ -192,7 +252,7 @@
   {
     "name": "Funnel Runners",
     "appid": "3712080",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Wild West Supermarket Simulator",
@@ -1062,7 +1122,7 @@
   {
     "name": "Solarpunk",
     "appid": "1805110",
-    "downloads": 31
+    "downloads": 33
   },
   {
     "name": "Arms of God",
@@ -2612,7 +2672,7 @@
   {
     "name": "Tides of Tomorrow",
     "appid": "2678080",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Play Together: Party Games",
@@ -3037,7 +3097,7 @@
   {
     "name": "Resident Evil Requiem",
     "appid": "3764200",
-    "downloads": 1486
+    "downloads": 1488
   },
   {
     "name": "The House of Hikmah",
@@ -7257,7 +7317,7 @@
   {
     "name": "Five Hearts Under One Roof season 2",
     "appid": "3731020",
-    "downloads": 68
+    "downloads": 69
   },
   {
     "name": "Wretch: Divine Ascent",
@@ -8042,7 +8102,7 @@
   {
     "name": "Call of Duty®: Modern Warfare®",
     "appid": "2000950",
-    "downloads": 438
+    "downloads": 439
   },
   {
     "name": "Warside",
@@ -8522,7 +8582,7 @@
   {
     "name": "AnimaEngine",
     "appid": "3474900",
-    "downloads": 21
+    "downloads": 22
   },
   {
     "name": "Shrine's Legacy",
@@ -9612,7 +9672,7 @@
   {
     "name": "Leann sins",
     "appid": "3538880",
-    "downloads": 28
+    "downloads": 30
   },
   {
     "name": "监寓",
@@ -9707,7 +9767,7 @@
   {
     "name": "Thot on Trial",
     "appid": "3320410",
-    "downloads": 28
+    "downloads": 30
   },
   {
     "name": "Stone Simulator",
@@ -33787,7 +33847,7 @@
   {
     "name": "inZOI",
     "appid": "2456740",
-    "downloads": 240
+    "downloads": 241
   },
   {
     "name": "Victoria: Revolutions",
@@ -67147,7 +67207,7 @@
   {
     "name": "Assassin's Creed Shadows",
     "appid": "3159330",
-    "downloads": 876
+    "downloads": 877
   },
   {
     "name": "Blood Harvest 3",
@@ -69147,7 +69207,7 @@
   {
     "name": "Bloomtown: A Different Story",
     "appid": "2445990",
-    "downloads": 5
+    "downloads": 14
   },
   {
     "name": "Arcana Heart 3 LOVE MAX!!!!!",
@@ -80177,7 +80237,7 @@
   {
     "name": "Clair Obscur: Expedition 33",
     "appid": "1903340",
-    "downloads": 554
+    "downloads": 555
   },
   {
     "name": "Desktop Farm Remastered",
@@ -82902,7 +82962,7 @@
   {
     "name": "Crystal Project",
     "appid": "1637730",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "DARTHY",
@@ -85557,7 +85617,7 @@
   {
     "name": "Command & Conquer™ Red Alert™ 3 - Uprising",
     "appid": "24800",
-    "downloads": 19
+    "downloads": 22
   },
   {
     "name": "College Kings - Act II",
@@ -94837,7 +94897,7 @@
   {
     "name": "Five Hearts Under One Roof",
     "appid": "3021100",
-    "downloads": 54
+    "downloads": 55
   },
   {
     "name": "Extremely Powerful Capybaras",
@@ -107047,7 +107107,7 @@
   {
     "name": "God of War Ragnarök",
     "appid": "2322010",
-    "downloads": 877
+    "downloads": 878
   },
   {
     "name": "Hacker Simulator",
@@ -130597,7 +130657,7 @@
   {
     "name": "Minecraft Dungeons",
     "appid": "1672970",
-    "downloads": 19
+    "downloads": 20
   },
   {
     "name": "Mr. White",
@@ -135362,7 +135422,7 @@
   {
     "name": "Overpass 2",
     "appid": "1830630",
-    "downloads": 2
+    "downloads": 4
   },
   {
     "name": "My Pet Rock",
@@ -156112,7 +156172,7 @@
   {
     "name": "STAR WARS Jedi: Survivor™",
     "appid": "1774580",
-    "downloads": 215
+    "downloads": 216
   },
   {
     "name": "STAR WARS™ Republic Commando",
