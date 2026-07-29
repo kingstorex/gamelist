@@ -1,5 +1,40 @@
 [
   {
+    "name": "New Folder",
+    "appid": "4159130",
+    "downloads": 0
+  },
+  {
+    "name": "Suncraft",
+    "appid": "4078110",
+    "downloads": 0
+  },
+  {
+    "name": "CD-ROM",
+    "appid": "3968100",
+    "downloads": 1
+  },
+  {
+    "name": "Ugoku Sushi Bar",
+    "appid": "3938640",
+    "downloads": 0
+  },
+  {
+    "name": "Village in the Shade",
+    "appid": "3934250",
+    "downloads": 0
+  },
+  {
+    "name": "TR-49",
+    "appid": "3838370",
+    "downloads": 0
+  },
+  {
+    "name": "Level Devil",
+    "appid": "3242750",
+    "downloads": 0
+  },
+  {
     "name": "STAR WARS™ Empire at War: Gold Pack",
     "appid": "32470",
     "downloads": 8
@@ -7,7 +42,7 @@
   {
     "name": "Forsaken Realms: Vahrin's Call",
     "appid": "951770",
-    "downloads": 10
+    "downloads": 11
   },
   {
     "name": "MOLDRISE",
@@ -92,7 +127,7 @@
   {
     "name": "Mall Together",
     "appid": "4668890",
-    "downloads": 21
+    "downloads": 22
   },
   {
     "name": "OFFBEAT",
@@ -182,12 +217,12 @@
   {
     "name": "DragonSword : Awakening",
     "appid": "4570720",
-    "downloads": 162
+    "downloads": 163
   },
   {
     "name": "Age of Clicks",
     "appid": "4804480",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "絨毯を洗うゲーム",
@@ -202,7 +237,7 @@
   {
     "name": "Dirty Business",
     "appid": "4324480",
-    "downloads": 27
+    "downloads": 28
   },
   {
     "name": "Incrempire",
@@ -257,7 +292,7 @@
   {
     "name": "Aquapark Tycoon",
     "appid": "2819470",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Colossus - Eternal Blight",
@@ -377,7 +412,7 @@
   {
     "name": "Game Store Chronicle",
     "appid": "3463400",
-    "downloads": 10
+    "downloads": 11
   },
   {
     "name": "Trench Tales",
@@ -797,7 +832,7 @@
   {
     "name": "Games Tycoon",
     "appid": "3534690",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Esports Manager 2026",
@@ -2117,7 +2152,7 @@
   {
     "name": "Forza Horizon 6",
     "appid": "2483190",
-    "downloads": 3314
+    "downloads": 3316
   },
   {
     "name": "Before Closure",
@@ -4772,7 +4807,7 @@
   {
     "name": "Grand Theft Auto V Enhanced",
     "appid": "3240220",
-    "downloads": 588
+    "downloads": 589
   },
   {
     "name": "Bus Flipper Simulator",
@@ -7952,7 +7987,7 @@
   {
     "name": "Super Movie Tycoon",
     "appid": "3639380",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Master of Command",
@@ -34632,7 +34667,7 @@
   {
     "name": "Tiny Glade",
     "appid": "2198150",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Ultimate Blackball",
@@ -34787,7 +34822,7 @@
   {
     "name": "Ultimate Marvel vs. Capcom 3",
     "appid": "357190",
-    "downloads": 32
+    "downloads": 34
   },
   {
     "name": "Trivia Night",
@@ -44677,7 +44712,7 @@
   {
     "name": "Tube Tycoon",
     "appid": "611040",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Three Kingdom: The Journey",
@@ -57177,7 +57212,7 @@
   {
     "name": "Tainted Grail: The Fall of Avalon",
     "appid": "1466060",
-    "downloads": 48
+    "downloads": 49
   },
   {
     "name": "Angry Bunny 2: Lost hole",
@@ -57572,7 +57607,7 @@
   {
     "name": "Alan Wake",
     "appid": "108710",
-    "downloads": 36
+    "downloads": 37
   },
   {
     "name": "Tank rush",
@@ -67492,7 +67527,7 @@
   {
     "name": "Assassin's Creed Shadows",
     "appid": "3159330",
-    "downloads": 982
+    "downloads": 985
   },
   {
     "name": "Blood Harvest 3",
@@ -70527,7 +70562,7 @@
   {
     "name": "Assassin's Creed Revelations",
     "appid": "201870",
-    "downloads": 73
+    "downloads": 74
   },
   {
     "name": "Business Simulator",
@@ -97522,7 +97557,7 @@
   {
     "name": "Esports Life Tycoon",
     "appid": "897410",
-    "downloads": 4
+    "downloads": 5
   },
   {
     "name": "Gibbous - A Cthulhu Adventure",
@@ -105552,7 +105587,7 @@
   {
     "name": "Heavy Rain",
     "appid": "960910",
-    "downloads": 78
+    "downloads": 79
   },
   {
     "name": "Hell Shooter: K-Demon Hunter",
@@ -107382,7 +107417,7 @@
   {
     "name": "God of War Ragnarök",
     "appid": "2322010",
-    "downloads": 913
+    "downloads": 914
   },
   {
     "name": "Hacker Simulator",
@@ -112597,7 +112632,7 @@
   {
     "name": "God of War",
     "appid": "1593500",
-    "downloads": 468
+    "downloads": 469
   },
   {
     "name": "Hill Climb",
@@ -113787,7 +113822,7 @@
   {
     "name": "Grand Theft Auto V Legacy",
     "appid": "271590",
-    "downloads": 208
+    "downloads": 209
   },
   {
     "name": "Hentai Shooter 3D: Christmas Party",
@@ -116897,7 +116932,7 @@
   {
     "name": "Lost Castle 2",
     "appid": "2445690",
-    "downloads": 37
+    "downloads": 38
   },
   {
     "name": "Marine Park Empire",
@@ -117637,7 +117672,7 @@
   {
     "name": "Marvel vs. Capcom: Infinite",
     "appid": "493840",
-    "downloads": 34
+    "downloads": 35
   },
   {
     "name": "Immortal Redneck",
@@ -121317,7 +121352,7 @@
   {
     "name": "MagicMic - Real-time Voice Changer",
     "appid": "2620350",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Majesty 2 Collection",
@@ -129537,7 +129572,7 @@
   {
     "name": "METAL GEAR SOLID 3: Snake Eater - Master Collection Version",
     "appid": "2131650",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "Mimicry",
@@ -130177,7 +130212,7 @@
   {
     "name": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
     "appid": "2131640",
-    "downloads": 23
+    "downloads": 24
   },
   {
     "name": "Monster Hunter Stories 2: Wings of Ruin",
@@ -130982,7 +131017,7 @@
   {
     "name": "Movies Tycoon",
     "appid": "2659050",
-    "downloads": 2
+    "downloads": 1
   },
   {
     "name": "MOAI: Build Your Dream",
@@ -132132,7 +132167,7 @@
   {
     "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
     "appid": "287700",
-    "downloads": 96
+    "downloads": 97
   },
   {
     "name": "Metro Simulator 2",
@@ -132347,7 +132382,7 @@
   {
     "name": "METAL GEAR SOLID - Master Collection Version",
     "appid": "2131630",
-    "downloads": 29
+    "downloads": 30
   },
   {
     "name": "Momo's Eternal Adventure",
@@ -133522,7 +133557,7 @@
   {
     "name": "MorphVOX Pro 5 - Voice Changer",
     "appid": "1529570",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Metro 2033",
@@ -140657,7 +140692,7 @@
   {
     "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
     "appid": "1020790",
-    "downloads": 317
+    "downloads": 318
   },
   {
     "name": "Nerobi",
@@ -145532,7 +145567,7 @@
   {
     "name": "Red Dead Redemption",
     "appid": "2668510",
-    "downloads": 192
+    "downloads": 193
   },
   {
     "name": "Purgatory",
@@ -148917,7 +148952,7 @@
   {
     "name": "Red Dead Redemption 2",
     "appid": "1174180",
-    "downloads": 827
+    "downloads": 828
   },
   {
     "name": "Picontier",
