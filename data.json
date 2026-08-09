@@ -1,5 +1,15 @@
 [
   {
+    "name": "Block Block Block",
+    "appid": "3375490",
+    "downloads": 0
+  },
+  {
+    "name": "The Gold River Project",
+    "appid": "1253220",
+    "downloads": 0
+  },
+  {
     "name": "Miseria",
     "appid": "4563870",
     "downloads": 8
@@ -62,7 +72,7 @@
   {
     "name": "IRON NEST: Heavy Turret Simulator",
     "appid": "2950790",
-    "downloads": 25
+    "downloads": 26
   },
   {
     "name": "Sovereign Tower",
@@ -1807,7 +1817,7 @@
   {
     "name": "MECCHA CHAMELEON",
     "appid": "4704690",
-    "downloads": 612
+    "downloads": 613
   },
   {
     "name": "Killer Bean",
@@ -5182,7 +5192,7 @@
   {
     "name": "Grand Theft Auto V Enhanced",
     "appid": "3240220",
-    "downloads": 631
+    "downloads": 632
   },
   {
     "name": "Bus Flipper Simulator",
@@ -5687,7 +5697,7 @@
   {
     "name": "DRAGON QUEST VII Reimagined",
     "appid": "2499860",
-    "downloads": 145
+    "downloads": 146
   },
   {
     "name": "MENACE",
@@ -7652,7 +7662,7 @@
   {
     "name": "Battlefield™ 6",
     "appid": "2807960",
-    "downloads": 405
+    "downloads": 407
   },
   {
     "name": "Tingus Goose",
@@ -8182,7 +8192,7 @@
   {
     "name": "INAZUMA ELEVEN: Victory Road",
     "appid": "2799860",
-    "downloads": 103
+    "downloads": 104
   },
   {
     "name": "Erenshor",
@@ -8562,7 +8572,7 @@
   {
     "name": "Plants vs. Zombies™: Replanted",
     "appid": "3654560",
-    "downloads": 144
+    "downloads": 145
   },
   {
     "name": "House Builder 2",
@@ -9037,7 +9047,7 @@
   {
     "name": "Daimon Blades",
     "appid": "1869500",
-    "downloads": 12
+    "downloads": 14
   },
   {
     "name": "Concubine",
@@ -10062,7 +10072,7 @@
   {
     "name": "Grand Tits Adventure [18+]",
     "appid": "3824080",
-    "downloads": 61
+    "downloads": 62
   },
   {
     "name": "Iwakura Aria",
@@ -10697,7 +10707,7 @@
   {
     "name": "GUILTY GEAR -STRIVE-",
     "appid": "1384160",
-    "downloads": 110
+    "downloads": 111
   },
   {
     "name": "HELLBREAK",
@@ -11297,7 +11307,7 @@
   {
     "name": "Barbara: Sex Story",
     "appid": "2658650",
-    "downloads": 97
+    "downloads": 98
   },
   {
     "name": "梦灯花",
@@ -40092,7 +40102,7 @@
   {
     "name": "The Spell Brigade",
     "appid": "2904000",
-    "downloads": 74
+    "downloads": 75
   },
   {
     "name": "The Tiny Bang Story",
@@ -40312,7 +40322,7 @@
   {
     "name": "The Thaumaturge",
     "appid": "1684350",
-    "downloads": 14
+    "downloads": 15
   },
   {
     "name": "The Jackbox Naughty Pack",
@@ -42367,7 +42377,7 @@
   {
     "name": "TramSim Vienna",
     "appid": "1314140",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "The Wonderful 101: Remastered",
@@ -51507,7 +51517,7 @@
   {
     "name": "TEKKEN 8",
     "appid": "1778820",
-    "downloads": 1145
+    "downloads": 1147
   },
   {
     "name": "Star Advent",
@@ -69002,7 +69012,7 @@
   {
     "name": "Assassin's Creed Valhalla",
     "appid": "2208920",
-    "downloads": 332
+    "downloads": 333
   },
   {
     "name": "Bhop up!",
@@ -85202,7 +85212,7 @@
   {
     "name": "Cyberpunk 2077",
     "appid": "1091500",
-    "downloads": 941
+    "downloads": 942
   },
   {
     "name": "Cobalt Core",
@@ -109532,7 +109542,7 @@
   {
     "name": "Grand Theft Auto: San Andreas - The Definitive Edition",
     "appid": "1547000",
-    "downloads": 137
+    "downloads": 138
   },
   {
     "name": "Home Safety Hotline",
@@ -119772,7 +119782,7 @@
   {
     "name": "Marvel’s Spider-Man Remastered",
     "appid": "1817070",
-    "downloads": 609
+    "downloads": 610
   },
   {
     "name": "IMAZE.EXE 2",
@@ -124322,7 +124332,7 @@
   {
     "name": "Marvel's Spider-Man 2",
     "appid": "2651280",
-    "downloads": 1378
+    "downloads": 1379
   },
   {
     "name": "Lord of the Click 3",
@@ -127942,7 +127952,7 @@
   {
     "name": "Marvel's Spider-Man: Miles Morales",
     "appid": "1817190",
-    "downloads": 452
+    "downloads": 453
   },
   {
     "name": "Melody's Escape 2",
@@ -140407,7 +140417,7 @@
   {
     "name": "NHRA Championship Drag Racing: Speed For All",
     "appid": "1681880",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "My Lovely Girls - Artbook 18+",
@@ -151957,7 +151967,7 @@
   {
     "name": "R.E.P.O.",
     "appid": "3241660",
-    "downloads": 180
+    "downloads": 181
   },
   {
     "name": "RPG Maker MZ - Heroine Character Generator for MZ",
@@ -156732,7 +156742,7 @@
   {
     "name": "Sekiro™: Shadows Die Twice",
     "appid": "814380",
-    "downloads": 325
+    "downloads": 326
   },
   {
     "name": "Seven Bullets Zombie Apocalypse",
@@ -159322,7 +159332,7 @@
   {
     "name": "Schedule I",
     "appid": "3164500",
-    "downloads": 306
+    "downloads": 307
   },
   {
     "name": "SAMURAI MAIDEN",
