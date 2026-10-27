@@ -1,43 +1,53 @@
 [
   {
+    "name": "Remothered: Red Nun's Legacy",
+    "appid": "3335310",
+    "downloads": 3
+  },
+  {
+    "name": "The Edge Of - Definitive Edition",
+    "appid": "3445640",
+    "downloads": 2
+  },
+  {
     "name": "PAO PAO",
     "appid": "3024130",
-    "downloads": 0
+    "downloads": 6
   },
   {
     "name": "Nova Patria",
     "appid": "3831720",
-    "downloads": 0
+    "downloads": 3
   },
   {
     "name": "BloomTale",
     "appid": "3168520",
-    "downloads": 0
+    "downloads": 2
   },
   {
     "name": "Dinerz",
     "appid": "4513300",
-    "downloads": 1
+    "downloads": 4
   },
   {
     "name": "Humanica",
     "appid": "2112740",
-    "downloads": 19
+    "downloads": 20
   },
   {
     "name": "Island of Forbidden Desires",
     "appid": "5220650",
-    "downloads": 31
+    "downloads": 33
   },
   {
     "name": "Next Girl, Please 🎬",
     "appid": "4602300",
-    "downloads": 28
+    "downloads": 30
   },
   {
     "name": "Baron",
     "appid": "2679790",
-    "downloads": 41
+    "downloads": 43
   },
   {
     "name": "Warrior Cats: Clans of the Forest",
@@ -67,17 +77,17 @@
   {
     "name": "Online: 404",
     "appid": "4094350",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "THE WRONG WAY",
     "appid": "5341070",
-    "downloads": 14
+    "downloads": 15
   },
   {
     "name": "Moon Sweepers",
     "appid": "5335510",
-    "downloads": 25
+    "downloads": 29
   },
   {
     "name": "Rosalie",
@@ -92,12 +102,12 @@
   {
     "name": "Sayaka: My Naughty Milf Neighbor",
     "appid": "3488890",
-    "downloads": 42
+    "downloads": 43
   },
   {
     "name": "天临混元",
     "appid": "2765320",
-    "downloads": 8
+    "downloads": 9
   },
   {
     "name": "Forever Ago",
@@ -117,12 +127,12 @@
   {
     "name": "The Last Camp : Dawn",
     "appid": "4198430",
-    "downloads": 23
+    "downloads": 24
   },
   {
     "name": "ONE PIECE: Grand Gourmet",
     "appid": "3905010",
-    "downloads": 33
+    "downloads": 34
   },
   {
     "name": "Moadra",
@@ -137,7 +147,7 @@
   {
     "name": "Stupid Never Dies",
     "appid": "3486530",
-    "downloads": 52
+    "downloads": 53
   },
   {
     "name": "古剑奇谭三(Gujian3)",
@@ -242,7 +252,7 @@
   {
     "name": "The Crew Motorfest",
     "appid": "2698940",
-    "downloads": 193
+    "downloads": 195
   },
   {
     "name": "Kendo",
@@ -282,7 +292,7 @@
   {
     "name": "Disney/Pixar Toy Story 3 Complete Edition",
     "appid": "4049180",
-    "downloads": 77
+    "downloads": 78
   },
   {
     "name": "Fire And Ashes",
@@ -302,7 +312,7 @@
   {
     "name": "Castlevania: Belmont's Curse",
     "appid": "4231820",
-    "downloads": 64
+    "downloads": 66
   },
   {
     "name": "Shipping Store Simulator 2037",
@@ -317,7 +327,7 @@
   {
     "name": "Harvest Moon: Echoes of Teradea",
     "appid": "3591180",
-    "downloads": 61
+    "downloads": 63
   },
   {
     "name": "Warhammer 40,000: Boltgun 2",
@@ -332,7 +342,7 @@
   {
     "name": "PGA TOUR 2K25",
     "appid": "2385530",
-    "downloads": 44
+    "downloads": 45
   },
   {
     "name": "Chained Wheels",
@@ -352,12 +362,12 @@
   {
     "name": "MXGP 26 - The official game",
     "appid": "3634190",
-    "downloads": 66
+    "downloads": 67
   },
   {
     "name": "Valor Mortis",
     "appid": "2828710",
-    "downloads": 80
+    "downloads": 82
   },
   {
     "name": "Lurking Danger",
@@ -457,7 +467,7 @@
   {
     "name": "Gear.Club Unlimited 3",
     "appid": "3659460",
-    "downloads": 106
+    "downloads": 107
   },
   {
     "name": "The Ember Guardian",
@@ -502,7 +512,7 @@
   {
     "name": "Gears of War: E-Day",
     "appid": "3010850",
-    "downloads": 249
+    "downloads": 250
   },
   {
     "name": "STUNTBOOST",
@@ -1127,7 +1137,7 @@
   {
     "name": "Train Sim World® 7",
     "appid": "4678800",
-    "downloads": 114
+    "downloads": 115
   },
   {
     "name": "Dumb Ways to Build",
@@ -1407,7 +1417,7 @@
   {
     "name": "ROOM– 24/7 Total Surveillance",
     "appid": "3116460",
-    "downloads": 89
+    "downloads": 90
   },
   {
     "name": "Bloomkeeper",
@@ -1597,7 +1607,7 @@
   {
     "name": "Professional Ship Simulator",
     "appid": "3636930",
-    "downloads": 30
+    "downloads": 31
   },
   {
     "name": "Night Club Simulator: Party King",
@@ -1772,7 +1782,7 @@
   {
     "name": "Supermarket Life Simulator",
     "appid": "4311370",
-    "downloads": 7
+    "downloads": 8
   },
   {
     "name": "Nuclear Design Bureau",
@@ -2012,7 +2022,7 @@
   {
     "name": "Call of Duty®",
     "appid": "1938090",
-    "downloads": 1167
+    "downloads": 1182
   },
   {
     "name": "Wanderburg",
@@ -2052,7 +2062,7 @@
   {
     "name": "Parking in Tight Spaces",
     "appid": "4265570",
-    "downloads": 19
+    "downloads": 20
   },
   {
     "name": "Eggstreme Farming",
@@ -2067,7 +2077,7 @@
   {
     "name": "Siren's Well",
     "appid": "3272980",
-    "downloads": 64
+    "downloads": 70
   },
   {
     "name": "Where Girls Are Made",
@@ -2352,7 +2362,7 @@
   {
     "name": "NBA 2K27",
     "appid": "4356430",
-    "downloads": 207
+    "downloads": 208
   },
   {
     "name": "LIFE EFFECT Survival",
@@ -3022,7 +3032,7 @@
   {
     "name": "SupercarKickers",
     "appid": "4546950",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "守护我的大火箭",
@@ -3157,7 +3167,7 @@
   {
     "name": "Mortal Shell II",
     "appid": "2584270",
-    "downloads": 306
+    "downloads": 307
   },
   {
     "name": "FD 27: Direct Your Football Club",
@@ -3177,7 +3187,7 @@
   {
     "name": "Mini Racer Car Shop Simulator",
     "appid": "3294630",
-    "downloads": 34
+    "downloads": 35
   },
   {
     "name": "Italian Pizza Simulator",
@@ -3382,7 +3392,7 @@
   {
     "name": "Landscaper Simulator",
     "appid": "3959530",
-    "downloads": 24
+    "downloads": 25
   },
   {
     "name": "Warhounds",
@@ -3677,7 +3687,7 @@
   {
     "name": "Beast of Reincarnation",
     "appid": "2001760",
-    "downloads": 496
+    "downloads": 497
   },
   {
     "name": "From Devil's Womb",
@@ -3902,7 +3912,7 @@
   {
     "name": "Village in the Shade",
     "appid": "3934250",
-    "downloads": 22
+    "downloads": 23
   },
   {
     "name": "TR-49",
@@ -4172,7 +4182,7 @@
   {
     "name": "Aquapark Tycoon",
     "appid": "2819470",
-    "downloads": 38
+    "downloads": 39
   },
   {
     "name": "Colossus - Eternal Blight",
@@ -4412,7 +4422,7 @@
   {
     "name": "Farm Factory Simulator",
     "appid": "4668220",
-    "downloads": 49
+    "downloads": 50
   },
   {
     "name": "Sextates Manager",
@@ -4457,7 +4467,7 @@
   {
     "name": "Wild West Supermarket Simulator",
     "appid": "3690760",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Naked Interrogation Simulator",
@@ -4507,7 +4517,7 @@
   {
     "name": "EA SPORTS™ College Football 27",
     "appid": "4032350",
-    "downloads": 75
+    "downloads": 76
   },
   {
     "name": "70年代風ロボットアニメ ゲッP-X",
@@ -4552,7 +4562,7 @@
   {
     "name": "Quarantine Market Simulator",
     "appid": "4386340",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "Cat Chess",
@@ -4672,7 +4682,7 @@
   {
     "name": "Assassin's Creed Black Flag Resynced",
     "appid": "3751950",
-    "downloads": 1724
+    "downloads": 1727
   },
   {
     "name": "Pocket Pond",
@@ -4847,7 +4857,7 @@
   {
     "name": "Campsite Hustle! - Management Simulator",
     "appid": "3708070",
-    "downloads": 58
+    "downloads": 59
   },
   {
     "name": "Demons' Timeline",
@@ -5027,7 +5037,7 @@
   {
     "name": "Ice Cream Simulator",
     "appid": "3515530",
-    "downloads": 18
+    "downloads": 19
   },
   {
     "name": "Cafe Crew Simulator",
@@ -5257,7 +5267,7 @@
   {
     "name": "The Boss Gangster: Criminal Empire",
     "appid": "2774040",
-    "downloads": 42
+    "downloads": 43
   },
   {
     "name": "Echo Generation 2",
@@ -5472,7 +5482,7 @@
   {
     "name": "DON'T SCREAM TOGETHER",
     "appid": "2692990",
-    "downloads": 24
+    "downloads": 25
   },
   {
     "name": "Dead Engine",
@@ -5517,7 +5527,7 @@
   {
     "name": "Alien Market Simulator",
     "appid": "3215290",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "My Little Cafe Nightmare",
@@ -5722,7 +5732,7 @@
   {
     "name": "Stonemachia",
     "appid": "2982610",
-    "downloads": 55
+    "downloads": 56
   },
   {
     "name": "Immoral office : Hypno Switch",
@@ -5752,7 +5762,7 @@
   {
     "name": "007 First Light",
     "appid": "3768760",
-    "downloads": 3500
+    "downloads": 3507
   },
   {
     "name": "Black Hole Fishing",
@@ -5882,7 +5892,7 @@
   {
     "name": "LEGO® Batman™: Legacy of the Dark Knight",
     "appid": "2215200",
-    "downloads": 1064
+    "downloads": 1067
   },
   {
     "name": "Scritchy Scratchy",
@@ -6042,7 +6052,7 @@
   {
     "name": "Forza Horizon 6",
     "appid": "2483190",
-    "downloads": 4869
+    "downloads": 4874
   },
   {
     "name": "Before Closure",
@@ -6577,7 +6587,7 @@
   {
     "name": "Far Far West",
     "appid": "3124540",
-    "downloads": 61
+    "downloads": 62
   },
   {
     "name": "Where it all Began - Season 1",
@@ -6622,12 +6632,12 @@
   {
     "name": "MotoGP™26",
     "appid": "3875050",
-    "downloads": 483
+    "downloads": 484
   },
   {
     "name": "PRAGMATA",
     "appid": "3357650",
-    "downloads": 1471
+    "downloads": 1472
   },
   {
     "name": "对不起，我是警察",
@@ -6832,7 +6842,7 @@
   {
     "name": "Parisian Brasserie Simulator",
     "appid": "3058360",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "Pupple Pop",
@@ -7082,7 +7092,7 @@
   {
     "name": "Car Mechanic Shop Simulator",
     "appid": "3401000",
-    "downloads": 21
+    "downloads": 22
   },
   {
     "name": "A Storied Life: Tabitha",
@@ -7177,7 +7187,7 @@
   {
     "name": "Alaska Gold Fever",
     "appid": "1674200",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Road Food Simulator",
@@ -7302,7 +7312,7 @@
   {
     "name": "Resident Evil Requiem",
     "appid": "3764200",
-    "downloads": 2188
+    "downloads": 2191
   },
   {
     "name": "The House of Hikmah",
@@ -7347,7 +7357,7 @@
   {
     "name": "Morbid Metal",
     "appid": "1866130",
-    "downloads": 41
+    "downloads": 42
   },
   {
     "name": "People of Note",
@@ -7372,7 +7382,7 @@
   {
     "name": "Weed Supermarket Simulator",
     "appid": "4156580",
-    "downloads": 34
+    "downloads": 35
   },
   {
     "name": "The Occultist",
@@ -7547,7 +7557,7 @@
   {
     "name": "Hotel Manager Simulator",
     "appid": "3507460",
-    "downloads": 13
+    "downloads": 14
   },
   {
     "name": "Here Comes The Swarm",
@@ -7752,7 +7762,7 @@
   {
     "name": "Way of the Hunter 2",
     "appid": "2543830",
-    "downloads": 59
+    "downloads": 61
   },
   {
     "name": "Mega Man Star Force Legacy Collection",
@@ -7827,7 +7837,7 @@
   {
     "name": "Crimson Desert",
     "appid": "3321460",
-    "downloads": 1398
+    "downloads": 1400
   },
   {
     "name": "Packing Life",
@@ -7842,7 +7852,7 @@
   {
     "name": "Call of Duty®: Modern Warfare® III",
     "appid": "3595270",
-    "downloads": 974
+    "downloads": 976
   },
   {
     "name": "DEATH STRANDING 2: ON THE BEACH",
@@ -7967,7 +7977,7 @@
   {
     "name": "Let's Start Managing the Sexual Relief Department!",
     "appid": "3436170",
-    "downloads": 37
+    "downloads": 38
   },
   {
     "name": "DYSPLACED",
@@ -8072,7 +8082,7 @@
   {
     "name": "Ranger’s Path: National Park Simulator",
     "appid": "2502780",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Piece by Piece",
@@ -8317,7 +8327,7 @@
   {
     "name": "Slay the Spire 2",
     "appid": "2868840",
-    "downloads": 167
+    "downloads": 168
   },
   {
     "name": "Docked",
@@ -8442,7 +8452,7 @@
   {
     "name": "Call of Duty®: Modern Warfare® 3 (2011)",
     "appid": "42680",
-    "downloads": 275
+    "downloads": 278
   },
   {
     "name": "Photography Agency",
@@ -8707,7 +8717,7 @@
   {
     "name": "Grand Theft Auto V Enhanced",
     "appid": "3240220",
-    "downloads": 1053
+    "downloads": 1054
   },
   {
     "name": "Bus Flipper Simulator",
@@ -8847,7 +8857,7 @@
   {
     "name": "Need for Speed™ Most Wanted",
     "appid": "1262560",
-    "downloads": 236
+    "downloads": 237
   },
   {
     "name": "Crime Detective: Red Flags",
@@ -8947,7 +8957,7 @@
   {
     "name": "REANIMAL",
     "appid": "2129530",
-    "downloads": 401
+    "downloads": 402
   },
   {
     "name": "Diablo II: Resurrected – Infernal Edition",
@@ -9107,7 +9117,7 @@
   {
     "name": "Designated Driver Simulator",
     "appid": "1813640",
-    "downloads": 23
+    "downloads": 24
   },
   {
     "name": "Crawl Tactics",
@@ -9457,7 +9467,7 @@
   {
     "name": "Aces of Thunder",
     "appid": "2754090",
-    "downloads": 13
+    "downloads": 16
   },
   {
     "name": "Racing Life",
@@ -10632,7 +10642,7 @@
   {
     "name": "Ukrainian Fight Drone Simulator",
     "appid": "2862860",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Macabre",
@@ -11157,7 +11167,7 @@
   {
     "name": "The Taming Massage Parlor ~Mari's Story~",
     "appid": "3845630",
-    "downloads": 33
+    "downloads": 34
   },
   {
     "name": "Yakuza 0 Director's Cut",
@@ -11177,7 +11187,7 @@
   {
     "name": "Battlefield™ 6",
     "appid": "2807960",
-    "downloads": 703
+    "downloads": 705
   },
   {
     "name": "Tingus Goose",
@@ -11287,7 +11297,7 @@
   {
     "name": "Egging On",
     "appid": "2897610",
-    "downloads": 13
+    "downloads": 15
   },
   {
     "name": "Shadowhand Solitaire",
@@ -11357,7 +11367,7 @@
   {
     "name": "Project Motor Racing",
     "appid": "299970",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Nun of your Business",
@@ -11422,7 +11432,7 @@
   {
     "name": "Hey Stranger! I Dare You to Love Me!",
     "appid": "1703220",
-    "downloads": 28
+    "downloads": 29
   },
   {
     "name": "My Wife Wants to Be a Professional Cosplayer?!",
@@ -11857,7 +11867,7 @@
   {
     "name": "Need for Speed™ Heat",
     "appid": "1222680",
-    "downloads": 402
+    "downloads": 404
   },
   {
     "name": "Harvest Moon: Home Sweet Home Special Edition",
@@ -12277,7 +12287,7 @@
   {
     "name": "Dispatch",
     "appid": "2592160",
-    "downloads": 301
+    "downloads": 302
   },
   {
     "name": "RV There Yet?",
@@ -12327,7 +12337,7 @@
   {
     "name": "Call of Duty®: Modern Warfare®",
     "appid": "2000950",
-    "downloads": 803
+    "downloads": 808
   },
   {
     "name": "Warside",
@@ -12587,7 +12597,7 @@
   {
     "name": "The Karate Kid: Street Rumble",
     "appid": "2549780",
-    "downloads": 27
+    "downloads": 28
   },
   {
     "name": "Karate Master 2 Knock Down Blow",
@@ -13277,7 +13287,7 @@
   {
     "name": "The Lustful Inn of Female Adventurers",
     "appid": "3461630",
-    "downloads": 25
+    "downloads": 26
   },
   {
     "name": "Phantom Brave: The Lost Hero",
@@ -13327,7 +13337,7 @@
   {
     "name": "Dying Light: The Beast",
     "appid": "3008130",
-    "downloads": 706
+    "downloads": 707
   },
   {
     "name": "Raining City: Millions Recollections",
@@ -13537,12 +13547,12 @@
   {
     "name": "Call of Duty®: Black Ops Cold War",
     "appid": "1985810",
-    "downloads": 473
+    "downloads": 474
   },
   {
     "name": "Ranch Farm and Store Simulator",
     "appid": "3706960",
-    "downloads": 19
+    "downloads": 20
   },
   {
     "name": "Animal Shelter 2",
@@ -13642,7 +13652,7 @@
   {
     "name": "EVERYBODY'S GOLF HOT SHOTS",
     "appid": "2730810",
-    "downloads": 26
+    "downloads": 27
   },
   {
     "name": "SHUTEN ORDER",
@@ -13657,7 +13667,7 @@
   {
     "name": "Lustful Fingers",
     "appid": "3438100",
-    "downloads": 26
+    "downloads": 27
   },
   {
     "name": "Indiana Jones and the Great Circle",
@@ -13872,7 +13882,7 @@
   {
     "name": "Need for Speed™ Rivals",
     "appid": "1262600",
-    "downloads": 121
+    "downloads": 122
   },
   {
     "name": "Grit and Valor - 1949",
@@ -13897,7 +13907,7 @@
   {
     "name": "Call of Duty®: Modern Warfare® II",
     "appid": "3595230",
-    "downloads": 811
+    "downloads": 813
   },
   {
     "name": "Dead Space",
@@ -14017,7 +14027,7 @@
   {
     "name": "Waterpark Simulator",
     "appid": "3293260",
-    "downloads": 168
+    "downloads": 169
   },
   {
     "name": "NODE: The Last Favor of the Antarii",
@@ -14047,7 +14057,7 @@
   {
     "name": "Streets of Rage 4",
     "appid": "985890",
-    "downloads": 25
+    "downloads": 27
   },
   {
     "name": "Space Adventure Cobra - The Awakening",
@@ -14057,7 +14067,7 @@
   {
     "name": "Lost Soul Aside™",
     "appid": "3378960",
-    "downloads": 251
+    "downloads": 252
   },
   {
     "name": "Star Overdrive",
@@ -14372,7 +14382,7 @@
   {
     "name": "VOID/BREAKER",
     "appid": "2615540",
-    "downloads": 14
+    "downloads": 15
   },
   {
     "name": "Knightica",
@@ -14617,7 +14627,7 @@
   {
     "name": "Tech Market Simulator",
     "appid": "3225600",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Yes, Your Grace: Snowfall",
@@ -14777,7 +14787,7 @@
   {
     "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
     "appid": "2928600",
-    "downloads": 635
+    "downloads": 636
   },
   {
     "name": "Monument Valley 3",
@@ -14817,7 +14827,7 @@
   {
     "name": "Savara",
     "appid": "3021630",
-    "downloads": 7
+    "downloads": 8
   },
   {
     "name": "HexWind",
@@ -14877,7 +14887,7 @@
   {
     "name": "Prison Escape Simulator: Dig Out",
     "appid": "3672720",
-    "downloads": 100
+    "downloads": 101
   },
   {
     "name": "BEYBLADE X XONE",
@@ -15147,7 +15157,7 @@
   {
     "name": "Upin & Ipin Universe",
     "appid": "3401920",
-    "downloads": 1075
+    "downloads": 1077
   },
   {
     "name": "ScootX",
@@ -16107,7 +16117,7 @@
   {
     "name": "The Forever Winter",
     "appid": "2828860",
-    "downloads": 39
+    "downloads": 40
   },
   {
     "name": "英雄群侠传II",
@@ -16167,7 +16177,7 @@
   {
     "name": "The First Berserker: Khazan",
     "appid": "2680010",
-    "downloads": 328
+    "downloads": 329
   },
   {
     "name": "钟馗斩鬼 试用版",
@@ -16327,7 +16337,7 @@
   {
     "name": "Stellar Blade™",
     "appid": "3489700",
-    "downloads": 1278
+    "downloads": 1280
   },
   {
     "name": "规则怪谈：欢迎来到森林马戏团",
@@ -18807,7 +18817,7 @@
   {
     "name": "WWE 2K17",
     "appid": "510510",
-    "downloads": 104
+    "downloads": 105
   },
   {
     "name": "World of Goo",
@@ -19007,7 +19017,7 @@
   {
     "name": "Zombie Survivals [18+]🧟♀🔞",
     "appid": "2307950",
-    "downloads": 5
+    "downloads": 6
   },
   {
     "name": "净化之径",
@@ -19747,7 +19757,7 @@
   {
     "name": "Ultra Street Fighter IV",
     "appid": "45760",
-    "downloads": 38
+    "downloads": 39
   },
   {
     "name": "炸鸡大作战",
@@ -20207,7 +20217,7 @@
   {
     "name": "Worms Ultimate Mayhem",
     "appid": "70600",
-    "downloads": 7
+    "downloads": 8
   },
   {
     "name": "Zenohell",
@@ -21347,7 +21357,7 @@
   {
     "name": "YinYang Street Ultimate Edition",
     "appid": "2334040",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "幻之轨迹",
@@ -23397,7 +23407,7 @@
   {
     "name": "Witchfire",
     "appid": "3156770",
-    "downloads": 32
+    "downloads": 33
   },
   {
     "name": "忘川游RiverLife",
@@ -25267,7 +25277,7 @@
   {
     "name": "Wallpaper Engine - Editor Extensions",
     "appid": "1790230",
-    "downloads": 211
+    "downloads": 214
   },
   {
     "name": "みんなで空気読み。 オリジナル・サウンドトラック",
@@ -30782,7 +30792,7 @@
   {
     "name": "UNDYING",
     "appid": "638990",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "天外武林 (Traveler of Wuxia)",
@@ -33872,7 +33882,7 @@
   {
     "name": "Tomb Raider",
     "appid": "203160",
-    "downloads": 125
+    "downloads": 126
   },
   {
     "name": "Woman's body 2",
@@ -33997,7 +34007,7 @@
   {
     "name": "WWE 2K20",
     "appid": "1015500",
-    "downloads": 33
+    "downloads": 34
   },
   {
     "name": "aMAZE Untouchable",
@@ -34047,7 +34057,7 @@
   {
     "name": "Uncrashed : FPV Drone Simulator",
     "appid": "1682970",
-    "downloads": 26
+    "downloads": 27
   },
   {
     "name": "We Are Lost",
@@ -35077,7 +35087,7 @@
   {
     "name": "Warhammer 40,000: Space Marine 2",
     "appid": "2183900",
-    "downloads": 238
+    "downloads": 239
   },
   {
     "name": "Tour de France 2022",
@@ -35217,7 +35227,7 @@
   {
     "name": "Watch_Dogs",
     "appid": "243470",
-    "downloads": 164
+    "downloads": 165
   },
   {
     "name": "Vtuber Animator",
@@ -35392,7 +35402,7 @@
   {
     "name": "Valheim",
     "appid": "892970",
-    "downloads": 136
+    "downloads": 137
   },
   {
     "name": "Wunderdoktor",
@@ -35687,7 +35697,7 @@
   {
     "name": "Watch_Dogs 2",
     "appid": "447040",
-    "downloads": 371
+    "downloads": 373
   },
   {
     "name": "Tunguska: The Visitation - Enhanced Edition",
@@ -36047,7 +36057,7 @@
   {
     "name": "Wallpaper Engine",
     "appid": "431960",
-    "downloads": 876
+    "downloads": 879
   },
   {
     "name": "THE KING OF FIGHTERS XV",
@@ -36842,7 +36852,7 @@
   {
     "name": "Tom Clancy's Splinter Cell Blacklist",
     "appid": "235600",
-    "downloads": 69
+    "downloads": 70
   },
   {
     "name": "Wind field",
@@ -38052,7 +38062,7 @@
   {
     "name": "inZOI",
     "appid": "2456740",
-    "downloads": 376
+    "downloads": 377
   },
   {
     "name": "Victoria: Revolutions",
@@ -38067,7 +38077,7 @@
   {
     "name": "Unravel Two",
     "appid": "1225570",
-    "downloads": 95
+    "downloads": 96
   },
   {
     "name": "Tokyo Necro",
@@ -38437,7 +38447,7 @@
   {
     "name": "Watch Dogs: Legion",
     "appid": "2239550",
-    "downloads": 286
+    "downloads": 287
   },
   {
     "name": "The Banner Saga 3",
@@ -41147,7 +41157,7 @@
   {
     "name": "The Elder Scrolls V: Skyrim Special Edition",
     "appid": "489830",
-    "downloads": 155
+    "downloads": 158
   },
   {
     "name": "The Inner World",
@@ -43977,7 +43987,7 @@
   {
     "name": "The Last of Us™ Part II Remastered",
     "appid": "2531310",
-    "downloads": 884
+    "downloads": 885
   },
   {
     "name": "Tower of Ardia",
@@ -44507,7 +44517,7 @@
   {
     "name": "The Last of Us™ Part I",
     "appid": "1888930",
-    "downloads": 823
+    "downloads": 824
   },
   {
     "name": "The Night Way Home | 帰り道",
@@ -46422,7 +46432,7 @@
   {
     "name": "Town Market Simulator 2025",
     "appid": "3470980",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "True Fear: Forsaken Souls Part 2",
@@ -49902,7 +49912,7 @@
   {
     "name": "Sonic Frontiers: Explorer's Treasure Box",
     "appid": "2079301",
-    "downloads": 4
+    "downloads": 1
   },
   {
     "name": "Star Sky 2",
@@ -50187,7 +50197,7 @@
   {
     "name": "Street Fighter™ 6: Fighting Ground",
     "appid": "1792750",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "The Art of CHKN",
@@ -51032,7 +51042,7 @@
   {
     "name": "Sonic Frontiers: Sonic Adventure 2 Shoes",
     "appid": "2089840",
-    "downloads": 4
+    "downloads": 5
   },
   {
     "name": "Starcom: Unknown Space",
@@ -51242,7 +51252,7 @@
   {
     "name": "Street Fighter V",
     "appid": "310950",
-    "downloads": 160
+    "downloads": 161
   },
   {
     "name": "Space Pioneer",
@@ -51967,7 +51977,7 @@
   {
     "name": "Street Fighter X Tekken",
     "appid": "209120",
-    "downloads": 175
+    "downloads": 176
   },
   {
     "name": "Terra Nova: Strike Force Centauri",
@@ -53177,7 +53187,7 @@
   {
     "name": "Stardew Valley",
     "appid": "413150",
-    "downloads": 207
+    "downloads": 208
   },
   {
     "name": "Sunny Beach Girls",
@@ -53282,7 +53292,7 @@
   {
     "name": "Steep",
     "appid": "460920",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "Stories Untold",
@@ -53367,7 +53377,7 @@
   {
     "name": "Strip Fighter 5: Chimpocon Edition",
     "appid": "1524470",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "Spellspire",
@@ -53382,7 +53392,7 @@
   {
     "name": "Split Fiction",
     "appid": "2001120",
-    "downloads": 424
+    "downloads": 425
   },
   {
     "name": "Speed Up",
@@ -54102,7 +54112,7 @@
   {
     "name": "Tavern Manager Simulator",
     "appid": "2756770",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Steven Universe_ Unleash the Light",
@@ -54907,7 +54917,7 @@
   {
     "name": "Stray",
     "appid": "1332010",
-    "downloads": 246
+    "downloads": 248
   },
   {
     "name": "Sonic Lost World",
@@ -54987,7 +54997,7 @@
   {
     "name": "TEKKEN 8",
     "appid": "1778820",
-    "downloads": 1964
+    "downloads": 1965
   },
   {
     "name": "Star Advent",
@@ -55272,7 +55282,7 @@
   {
     "name": "Street Fighter 30th Anniversary Collection",
     "appid": "586200",
-    "downloads": 19
+    "downloads": 20
   },
   {
     "name": "Takedown: Red Sabre",
@@ -55397,7 +55407,7 @@
   {
     "name": "Stormworks: Build and Rescue",
     "appid": "573090",
-    "downloads": 8
+    "downloads": 9
   },
   {
     "name": "Tales from the Void",
@@ -56217,7 +56227,7 @@
   {
     "name": "Shohei's Adult Streaming Channel",
     "appid": "1387290",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "Action Arcade Wrestling",
@@ -56782,7 +56792,7 @@
   {
     "name": "Sonic Frontiers",
     "appid": "1237320",
-    "downloads": 86
+    "downloads": 88
   },
   {
     "name": "12 Labours of Hercules III: Girl Power",
@@ -57057,7 +57067,7 @@
   {
     "name": "Anonymous Hacker Simulator",
     "appid": "2487060",
-    "downloads": 6
+    "downloads": 7
   },
   {
     "name": "Ambulance Emergency Simulation",
@@ -57597,7 +57607,7 @@
   {
     "name": "Sonic Frontiers: Holiday Cheer Suit",
     "appid": "2089733",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Stones of Sorrow",
@@ -60912,7 +60922,7 @@
   {
     "name": "A Promise Best Left Unkept",
     "appid": "2219000",
-    "downloads": 14
+    "downloads": 15
   },
   {
     "name": "SkyDrift",
@@ -60992,7 +61002,7 @@
   {
     "name": "Snooker 19",
     "appid": "887800",
-    "downloads": 45
+    "downloads": 46
   },
   {
     "name": "Alpacapaca Dash",
@@ -63337,7 +63347,7 @@
   {
     "name": "Street Fighter IV",
     "appid": "21660",
-    "downloads": 17
+    "downloads": 18
   },
   {
     "name": "Animal Lover",
@@ -66312,7 +66322,7 @@
   {
     "name": "Ambulance Life: A Paramedic Simulator",
     "appid": "1926520",
-    "downloads": 78
+    "downloads": 79
   },
   {
     "name": "MIRAGE",
@@ -68787,7 +68797,7 @@
   {
     "name": "Agricultural Simulator: Historical Farming",
     "appid": "259890",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "Sketch! Run!",
@@ -68987,7 +68997,7 @@
   {
     "name": "Street Fighter™ 6: World Tour",
     "appid": "1792751",
-    "downloads": 8
+    "downloads": 9
   },
   {
     "name": "Above Earth",
@@ -69862,7 +69872,7 @@
   {
     "name": "Battlefield 4™ ",
     "appid": "1238860",
-    "downloads": 126
+    "downloads": 127
   },
   {
     "name": "Arco",
@@ -70747,7 +70757,7 @@
   {
     "name": "Bodycam",
     "appid": "2406770",
-    "downloads": 597
+    "downloads": 599
   },
   {
     "name": "Bean Battles",
@@ -70977,7 +70987,7 @@
   {
     "name": "ARK: Survival Ascended",
     "appid": "2399830",
-    "downloads": 165
+    "downloads": 166
   },
   {
     "name": "Blue Effect VR",
@@ -71352,7 +71362,7 @@
   {
     "name": "Assassin's Creed Shadows",
     "appid": "3159330",
-    "downloads": 1572
+    "downloads": 1574
   },
   {
     "name": "Blood Harvest 3",
@@ -71677,7 +71687,7 @@
   {
     "name": "Assassin's Creed Rogue",
     "appid": "311560",
-    "downloads": 213
+    "downloads": 215
   },
   {
     "name": "BLACKHOLE",
@@ -71792,7 +71802,7 @@
   {
     "name": "BioShock 2",
     "appid": "8850",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Blood and Bacon",
@@ -72457,7 +72467,7 @@
   {
     "name": "Assassin's Creed Valhalla",
     "appid": "2208920",
-    "downloads": 406
+    "downloads": 407
   },
   {
     "name": "Bhop up!",
@@ -74077,7 +74087,7 @@
   {
     "name": "Black Myth: Wukong",
     "appid": "2358720",
-    "downloads": 2054
+    "downloads": 2057
   },
   {
     "name": "Battle Mages: Sign of Darkness",
@@ -74692,7 +74702,7 @@
   {
     "name": "ARK: Survival Of The Fittest",
     "appid": "407530",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "Bloons TD 6",
@@ -75202,7 +75212,7 @@
   {
     "name": "Balatro",
     "appid": "2379780",
-    "downloads": 45
+    "downloads": 46
   },
   {
     "name": "BattleJuice Alchemist",
@@ -75432,7 +75442,7 @@
   {
     "name": "Assassin's Creed Mirage",
     "appid": "3035570",
-    "downloads": 396
+    "downloads": 397
   },
   {
     "name": "Border of her Heart",
@@ -75832,7 +75842,7 @@
   {
     "name": "Assetto Corsa Competizione",
     "appid": "805550",
-    "downloads": 133
+    "downloads": 134
   },
   {
     "name": "Aquaculture Land",
@@ -76082,7 +76092,7 @@
   {
     "name": "ARK: Survival Evolved",
     "appid": "346110",
-    "downloads": 31
+    "downloads": 32
   },
   {
     "name": "Border Pioneer",
@@ -76762,7 +76772,7 @@
   {
     "name": "Billionaire Simulator - Rags to Riches",
     "appid": "2648390",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Archaeology - Sand Japanese",
@@ -77157,7 +77167,7 @@
   {
     "name": "Broken Arrow",
     "appid": "1604270",
-    "downloads": 102
+    "downloads": 103
   },
   {
     "name": "Blueprint Tycoon",
@@ -77507,7 +77517,7 @@
   {
     "name": "Battlefield 3™ ",
     "appid": "1238820",
-    "downloads": 66
+    "downloads": 68
   },
   {
     "name": "BlazBlue: Chronophantasma Extend",
@@ -78247,7 +78257,7 @@
   {
     "name": "Bully: Scholarship Edition",
     "appid": "12200",
-    "downloads": 120
+    "downloads": 121
   },
   {
     "name": "Bridge Project",
@@ -79432,7 +79442,7 @@
   {
     "name": "Capcom Arcade 2nd Stadium: Mini-Album Track 15 - Street Fighter Alpha 3 - Who'll Be Your Double? (Character Select)",
     "appid": "2087810",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Cars 2",
@@ -79487,7 +79497,7 @@
   {
     "name": "Call of Duty: Modern Warfare 2 (2009)",
     "appid": "10180",
-    "downloads": 150
+    "downloads": 151
   },
   {
     "name": "Celestial Raider",
@@ -80422,7 +80432,7 @@
   {
     "name": "Call of Duty 4: Modern Warfare (2007)",
     "appid": "7940",
-    "downloads": 68
+    "downloads": 69
   },
   {
     "name": "CARNAGE OFFERING",
@@ -80977,7 +80987,7 @@
   {
     "name": "Call of Duty: Modern Warfare Remastered (2017)",
     "appid": "393080",
-    "downloads": 264
+    "downloads": 265
   },
   {
     "name": "Cardfight!! Vanguard Dear Days",
@@ -81602,7 +81612,7 @@
   {
     "name": "Cat Quest III",
     "appid": "2305840",
-    "downloads": 6
+    "downloads": 7
   },
   {
     "name": "Catmaze",
@@ -81802,7 +81812,7 @@
   {
     "name": "Cafemart Simulator",
     "appid": "3408110",
-    "downloads": 5
+    "downloads": 6
   },
   {
     "name": "Chill Corner - Extras",
@@ -82237,7 +82247,7 @@
   {
     "name": "Deadzone Rogue",
     "appid": "3228590",
-    "downloads": 35
+    "downloads": 36
   },
   {
     "name": "Date Everything!",
@@ -84382,7 +84392,7 @@
   {
     "name": "Clair Obscur: Expedition 33",
     "appid": "1903340",
-    "downloads": 707
+    "downloads": 708
   },
   {
     "name": "Desktop Farm Remastered",
@@ -85012,7 +85022,7 @@
   {
     "name": "Devil May Cry 5",
     "appid": "601150",
-    "downloads": 350
+    "downloads": 351
   },
   {
     "name": "Deep Inside",
@@ -88627,7 +88637,7 @@
   {
     "name": "Cyberpunk 2077",
     "appid": "1091500",
-    "downloads": 1474
+    "downloads": 1477
   },
   {
     "name": "Cobalt Core",
@@ -91992,7 +92002,7 @@
   {
     "name": "EA SPORTS™ FIFA 21",
     "appid": "1313860",
-    "downloads": 118
+    "downloads": 119
   },
   {
     "name": "Draft Day Sports Pro Basketball 4",
@@ -92147,7 +92157,7 @@
   {
     "name": "Dragon's Dogma 2",
     "appid": "2054970",
-    "downloads": 321
+    "downloads": 322
   },
   {
     "name": "Dread Dawn",
@@ -92632,7 +92642,7 @@
   {
     "name": "Driver Booster PRO",
     "appid": "920630",
-    "downloads": 35
+    "downloads": 36
   },
   {
     "name": "Dolls",
@@ -93177,7 +93187,7 @@
   {
     "name": "DRAGON BALL: Sparking! ZERO",
     "appid": "1790600",
-    "downloads": 672
+    "downloads": 673
   },
   {
     "name": "Dragon Age™ II - Legacy",
@@ -95707,7 +95717,7 @@
   {
     "name": "Dying Light",
     "appid": "239140",
-    "downloads": 162
+    "downloads": 163
   },
   {
     "name": "Drift Of The Hill",
@@ -95937,7 +95947,7 @@
   {
     "name": "Dominatrix Simulator: Threshold",
     "appid": "953270",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "Eared Hero",
@@ -96607,7 +96617,7 @@
   {
     "name": "Dying Light 2: Reloaded Edition",
     "appid": "534380",
-    "downloads": 270
+    "downloads": 272
   },
   {
     "name": "Drunk Woman",
@@ -96657,7 +96667,7 @@
   {
     "name": "DYNASTY WARRIORS: ORIGINS",
     "appid": "2384580",
-    "downloads": 248
+    "downloads": 249
   },
   {
     "name": "EARTH DEFENSE FORCE: IRON RAIN",
@@ -97462,7 +97472,7 @@
   {
     "name": "F1 2020",
     "appid": "1080110",
-    "downloads": 65
+    "downloads": 66
   },
   {
     "name": "FALL IN LABYRINTH",
@@ -97777,7 +97787,7 @@
   {
     "name": "Farming Tractor Simulator: Big Farm",
     "appid": "2315010",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "Fling to the Finish",
@@ -98547,7 +98557,7 @@
   {
     "name": "Farming Simulator 2011",
     "appid": "90200",
-    "downloads": 1
+    "downloads": 2
   },
   {
     "name": "Fallen Hero: Rebirth",
@@ -98587,7 +98597,7 @@
   {
     "name": "Fat Prisoner Simulator",
     "appid": "1037560",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Ghost Simulator",
@@ -98747,7 +98757,7 @@
   {
     "name": "Farming Simulator 25",
     "appid": "2300320",
-    "downloads": 335
+    "downloads": 336
   },
   {
     "name": "Fruit Arranger",
@@ -98832,7 +98842,7 @@
   {
     "name": "Far Cry 5",
     "appid": "552520",
-    "downloads": 247
+    "downloads": 248
   },
   {
     "name": "Football Simulator",
@@ -99242,7 +99252,7 @@
   {
     "name": "FOOTAGE BODYCAM",
     "appid": "3111310",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Eron",
@@ -99312,7 +99322,7 @@
   {
     "name": "Far Cry 4",
     "appid": "298110",
-    "downloads": 117
+    "downloads": 118
   },
   {
     "name": "Farmer's Dynasty",
@@ -100597,7 +100607,7 @@
   {
     "name": "Fat Prisoner Simulator 3",
     "appid": "1498590",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Forbidden Planet",
@@ -101542,7 +101552,7 @@
   {
     "name": "Farming Simulator 22",
     "appid": "1248130",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Geometry Wars 3: Dimensions Evolved",
@@ -101587,7 +101597,7 @@
   {
     "name": "Funfair Ride Simulator 3",
     "appid": "497720",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Football Manager 2020 Editor",
@@ -101597,7 +101607,7 @@
   {
     "name": "Farming Simulator 17",
     "appid": "447020",
-    "downloads": 3
+    "downloads": 4
   },
   {
     "name": "Freedom Cry",
@@ -101952,7 +101962,7 @@
   {
     "name": "Fat Prisoner Simulator 2",
     "appid": "1085270",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "FortressCraft Evolved",
@@ -102577,7 +102587,7 @@
   {
     "name": "F1 2013",
     "appid": "223670",
-    "downloads": 11
+    "downloads": 12
   },
   {
     "name": "Fire Truck Simulator",
@@ -102747,7 +102757,7 @@
   {
     "name": "Ghost of Tsushima DIRECTOR'S CUT",
     "appid": "2215430",
-    "downloads": 1564
+    "downloads": 1565
   },
   {
     "name": "GLASS - Frina",
@@ -102777,7 +102787,7 @@
   {
     "name": "Gears 5",
     "appid": "1097840",
-    "downloads": 114
+    "downloads": 115
   },
   {
     "name": "Esse Proxy",
@@ -103282,7 +103292,7 @@
   {
     "name": "Europa Universalis IV",
     "appid": "236850",
-    "downloads": 6
+    "downloads": 7
   },
   {
     "name": "Fisti-Fluffs",
@@ -103897,7 +103907,7 @@
   {
     "name": "F1 2018",
     "appid": "737800",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Escape First 2",
@@ -104452,7 +104462,7 @@
   {
     "name": "Farming Simulator 15",
     "appid": "313160",
-    "downloads": 4
+    "downloads": 5
   },
   {
     "name": "Ginga Force",
@@ -104537,7 +104547,7 @@
   {
     "name": "F1 2016",
     "appid": "391040",
-    "downloads": 18
+    "downloads": 19
   },
   {
     "name": "Five Nights at Freddy's",
@@ -104687,7 +104697,7 @@
   {
     "name": "Far Cry Primal",
     "appid": "371660",
-    "downloads": 83
+    "downloads": 84
   },
   {
     "name": "FREAKHUNTER",
@@ -105062,7 +105072,7 @@
   {
     "name": "F1 2012",
     "appid": "208500",
-    "downloads": 14
+    "downloads": 15
   },
   {
     "name": "Formula Truck 2013",
@@ -105882,7 +105892,7 @@
   {
     "name": "Farming Simulator 2013",
     "appid": "220260",
-    "downloads": 3
+    "downloads": 1
   },
   {
     "name": "Flynn: Son of Crimson",
@@ -107122,7 +107132,7 @@
   {
     "name": "Far Cry® 3",
     "appid": "220240",
-    "downloads": 98
+    "downloads": 99
   },
   {
     "name": "Gachi Dash",
@@ -107562,7 +107572,7 @@
   {
     "name": "FINAL FANTASY VII REBIRTH",
     "appid": "2909400",
-    "downloads": 529
+    "downloads": 530
   },
   {
     "name": "GARAGE: Bad Trip",
@@ -107577,7 +107587,7 @@
   {
     "name": "Farming Simulator 19",
     "appid": "787860",
-    "downloads": 5
+    "downloads": 6
   },
   {
     "name": "FIREGROUND",
@@ -108057,7 +108067,7 @@
   {
     "name": "FINAL FANTASY VII REMAKE INTERGRADE",
     "appid": "1462040",
-    "downloads": 356
+    "downloads": 357
   },
   {
     "name": "Furry Love & Sex",
@@ -108667,7 +108677,7 @@
   {
     "name": "Horizon Forbidden West™ Complete Edition",
     "appid": "2420110",
-    "downloads": 405
+    "downloads": 406
   },
   {
     "name": "Guilty Gear Isuka",
@@ -108927,7 +108937,7 @@
   {
     "name": "HITMAN World of Assassination",
     "appid": "1659040",
-    "downloads": 543
+    "downloads": 545
   },
   {
     "name": "Goblin Conqueror",
@@ -110562,7 +110572,7 @@
   {
     "name": "God of War Ragnarök",
     "appid": "2322010",
-    "downloads": 1651
+    "downloads": 1655
   },
   {
     "name": "Hacker Simulator",
@@ -110722,7 +110732,7 @@
   {
     "name": "Grand Theft Auto IV: The Complete Edition",
     "appid": "12210",
-    "downloads": 268
+    "downloads": 269
   },
   {
     "name": "Happy’s Humble Burger Farm: Score (OST)",
@@ -111287,7 +111297,7 @@
   {
     "name": "Grandfather Simulator",
     "appid": "2690770",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Helicopter Simulator VR 2021 - Rescue Missions",
@@ -111417,7 +111427,7 @@
   {
     "name": "Hogwarts Legacy",
     "appid": "990080",
-    "downloads": 402
+    "downloads": 403
   },
   {
     "name": "Hover",
@@ -111727,7 +111737,7 @@
   {
     "name": "Hades II",
     "appid": "1145350",
-    "downloads": 259
+    "downloads": 260
   },
   {
     "name": "Hell of a Birthday",
@@ -112007,7 +112017,7 @@
   {
     "name": "Hydroponics Farm & Store Simulator",
     "appid": "3152540",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Grocket",
@@ -112302,7 +112312,7 @@
   {
     "name": "Grand Theft Auto: San Andreas - The Definitive Edition",
     "appid": "1547000",
-    "downloads": 236
+    "downloads": 238
   },
   {
     "name": "Home Safety Hotline",
@@ -114137,7 +114147,7 @@
   {
     "name": "HELLDIVERS™",
     "appid": "394510",
-    "downloads": 50
+    "downloads": 51
   },
   {
     "name": "God of Light: Remastered",
@@ -114632,7 +114642,7 @@
   {
     "name": "GRID 2",
     "appid": "44350",
-    "downloads": 20
+    "downloads": 21
   },
   {
     "name": "Guns'N'Zombies",
@@ -115767,7 +115777,7 @@
   {
     "name": "God of War",
     "appid": "1593500",
-    "downloads": 714
+    "downloads": 715
   },
   {
     "name": "Hill Climb",
@@ -116737,7 +116747,7 @@
   {
     "name": "Hentai Clicker: Lily is streaming",
     "appid": "3247250",
-    "downloads": 3
+    "downloads": 4
   },
   {
     "name": "Golf It!",
@@ -116957,7 +116967,7 @@
   {
     "name": "Grand Theft Auto V Legacy",
     "appid": "271590",
-    "downloads": 365
+    "downloads": 366
   },
   {
     "name": "Hentai Shooter 3D: Christmas Party",
@@ -117562,7 +117572,7 @@
   {
     "name": "Kamimachi Site - Dating story",
     "appid": "989580",
-    "downloads": 4
+    "downloads": 5
   },
   {
     "name": "Increlution",
@@ -118137,7 +118147,7 @@
   {
     "name": "It Takes Two",
     "appid": "1426210",
-    "downloads": 454
+    "downloads": 455
   },
   {
     "name": "I fell from Grace",
@@ -118177,7 +118187,7 @@
   {
     "name": "Kingdom Rush 5: Alliance TD",
     "appid": "2849080",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Mask of Fury",
@@ -120022,7 +120032,7 @@
   {
     "name": "Last Epoch",
     "appid": "899770",
-    "downloads": 36
+    "downloads": 37
   },
   {
     "name": "Ikai",
@@ -121457,7 +121467,7 @@
   {
     "name": "KIBORG",
     "appid": "2405060",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Kingdom Eighties",
@@ -122537,7 +122547,7 @@
   {
     "name": "Marvel’s Spider-Man Remastered",
     "appid": "1817070",
-    "downloads": 1112
+    "downloads": 1114
   },
   {
     "name": "IMAZE.EXE 2",
@@ -123397,7 +123407,7 @@
   {
     "name": "Internet Cafe Simulator 2",
     "appid": "1563180",
-    "downloads": 48
+    "downloads": 49
   },
   {
     "name": "In Vitra",
@@ -127082,7 +127092,7 @@
   {
     "name": "Marvel's Spider-Man 2",
     "appid": "2651280",
-    "downloads": 2536
+    "downloads": 2539
   },
   {
     "name": "Lord of the Click 3",
@@ -129502,7 +129512,7 @@
   {
     "name": "Junkyard Simulator",
     "appid": "671970",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Light Fighter",
@@ -130702,7 +130712,7 @@
   {
     "name": "Marvel's Spider-Man: Miles Morales",
     "appid": "1817190",
-    "downloads": 725
+    "downloads": 726
   },
   {
     "name": "Melody's Escape 2",
@@ -131002,7 +131012,7 @@
   {
     "name": "Manor Lords",
     "appid": "1363080",
-    "downloads": 215
+    "downloads": 216
   },
   {
     "name": "Jumping Challenge",
@@ -132407,7 +132417,7 @@
   {
     "name": "Mini-Market Simulator VR",
     "appid": "2282410",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "Monster Energy Supercross - The Official Videogame 6",
@@ -133917,7 +133927,7 @@
   {
     "name": "Moving Out 2",
     "appid": "1641700",
-    "downloads": 37
+    "downloads": 38
   },
   {
     "name": "MONSTER HUNTER RISE",
@@ -134287,7 +134297,7 @@
   {
     "name": "Motel Manager Simulator",
     "appid": "2594540",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Minit",
@@ -135562,7 +135572,7 @@
   {
     "name": "METAL SLUG XX",
     "appid": "975680",
-    "downloads": 33
+    "downloads": 34
   },
   {
     "name": "Mugsters",
@@ -136137,7 +136147,7 @@
   {
     "name": "METAL SLUG ATTACK RELOADED",
     "appid": "2322440",
-    "downloads": 15
+    "downloads": 16
   },
   {
     "name": "Monkeys & Dragons",
@@ -136347,7 +136357,7 @@
   {
     "name": "Motesolo",
     "appid": "1414180",
-    "downloads": 6
+    "downloads": 7
   },
   {
     "name": "Mission Ammunition",
@@ -136877,7 +136887,7 @@
   {
     "name": "ONE PIECE: PIRATE WARRIORS 4",
     "appid": "1089090",
-    "downloads": 272
+    "downloads": 273
   },
   {
     "name": "Paper Battlefield",
@@ -136917,7 +136927,7 @@
   {
     "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
     "appid": "633230",
-    "downloads": 123
+    "downloads": 124
   },
   {
     "name": "MX vs. ATV Reflex",
@@ -137557,7 +137567,7 @@
   {
     "name": "No Rest for the Wicked",
     "appid": "1371980",
-    "downloads": 82
+    "downloads": 83
   },
   {
     "name": "NEKOPARA Vol. 2 - Theme Song",
@@ -137882,7 +137892,7 @@
   {
     "name": "NASCAR Heat Evolution",
     "appid": "508450",
-    "downloads": 2
+    "downloads": 4
   },
   {
     "name": "My Cute Commissar",
@@ -139112,7 +139122,7 @@
   {
     "name": "Overcooked! All You Can Eat",
     "appid": "1243830",
-    "downloads": 97
+    "downloads": 98
   },
   {
     "name": "Naked Story (Sports Festival Ver)",
@@ -139127,7 +139137,7 @@
   {
     "name": "Offroad Truck Simulator – Heavy Duty Challenge",
     "appid": "1165530",
-    "downloads": 9
+    "downloads": 10
   },
   {
     "name": "Ninja Guy",
@@ -139282,7 +139292,7 @@
   {
     "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution",
     "appid": "272510",
-    "downloads": 82
+    "downloads": 83
   },
   {
     "name": "Paranautical Activity: Deluxe Atonement Edition",
@@ -139612,7 +139622,7 @@
   {
     "name": "Ninja JaJaMaru: The Great Yokai Battle + Hell",
     "appid": "1195070",
-    "downloads": 0
+    "downloads": 1
   },
   {
     "name": "On A Roll 3D",
@@ -139802,7 +139812,7 @@
   {
     "name": "NARUTO: Ultimate Ninja STORM",
     "appid": "495140",
-    "downloads": 146
+    "downloads": 147
   },
   {
     "name": "Old School FOTD",
@@ -139877,7 +139887,7 @@
   {
     "name": "One Piece: Unlimited World Red - Deluxe Edition",
     "appid": "571720",
-    "downloads": 27
+    "downloads": 28
   },
   {
     "name": "Natural Instincts",
@@ -140237,7 +140247,7 @@
   {
     "name": "Outlast",
     "appid": "238320",
-    "downloads": 124
+    "downloads": 125
   },
   {
     "name": "ParanormalHK",
@@ -140307,7 +140317,7 @@
   {
     "name": "NASCAR 21_ Ignition",
     "appid": "1439300",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Nice Way",
@@ -140507,7 +140517,7 @@
   {
     "name": "NASCAR Heat 5",
     "appid": "1265860",
-    "downloads": 7
+    "downloads": 8
   },
   {
     "name": "Night Book",
@@ -141197,7 +141207,7 @@
   {
     "name": "ONE PIECE PIRATE WARRIORS 3",
     "appid": "331600",
-    "downloads": 26
+    "downloads": 27
   },
   {
     "name": "Panzer Dragoon: Remake",
@@ -141372,7 +141382,7 @@
   {
     "name": "ONE PIECE World Seeker",
     "appid": "755500",
-    "downloads": 41
+    "downloads": 42
   },
   {
     "name": "Omae Wa Mou Shindeiru",
@@ -141842,7 +141852,7 @@
   {
     "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 2",
     "appid": "543870",
-    "downloads": 76
+    "downloads": 77
   },
   {
     "name": "One Final Chaos",
@@ -142172,7 +142182,7 @@
   {
     "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
     "appid": "349040",
-    "downloads": 224
+    "downloads": 225
   },
   {
     "name": "Paper Dolls 2",
@@ -142707,7 +142717,7 @@
   {
     "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst",
     "appid": "234670",
-    "downloads": 113
+    "downloads": 114
   },
   {
     "name": "Numberline 2",
@@ -142752,7 +142762,7 @@
   {
     "name": "ONE PIECE ODYSSEY",
     "appid": "814000",
-    "downloads": 57
+    "downloads": 58
   },
   {
     "name": "No Clue VR",
@@ -142932,7 +142942,7 @@
   {
     "name": "ONE PIECE BURNING BLOOD",
     "appid": "425220",
-    "downloads": 31
+    "downloads": 32
   },
   {
     "name": "Nikoderiko: The Magical World — Director’s Cut",
@@ -143117,7 +143127,7 @@
   {
     "name": "Outlast 2",
     "appid": "414700",
-    "downloads": 164
+    "downloads": 165
   },
   {
     "name": "Nyasha",
@@ -143797,7 +143807,7 @@
   {
     "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
     "appid": "1020790",
-    "downloads": 485
+    "downloads": 487
   },
   {
     "name": "Nerobi",
@@ -145017,7 +145027,7 @@
   {
     "name": "Nuclear War Simulator",
     "appid": "1603940",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Myst: Masterpiece Edition",
@@ -147687,7 +147697,7 @@
   {
     "name": "Rent A Car Simulator 24",
     "appid": "2099680",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "Reiko's Fragments",
@@ -148597,7 +148607,7 @@
   {
     "name": "Red Dead Redemption",
     "appid": "2668510",
-    "downloads": 281
+    "downloads": 282
   },
   {
     "name": "Purgatory",
@@ -149582,7 +149592,7 @@
   {
     "name": "Pro Evolution Soccer 2016",
     "appid": "375960",
-    "downloads": 31
+    "downloads": 32
   },
   {
     "name": "Peak Angle: Drift Online",
@@ -150667,7 +150677,7 @@
   {
     "name": "PICO PARK",
     "appid": "1509960",
-    "downloads": 16
+    "downloads": 17
   },
   {
     "name": "RPG Maker MZ - NEONPIXEL - International Airport",
@@ -151307,7 +151317,7 @@
   {
     "name": "PICO PARK 2",
     "appid": "2644470",
-    "downloads": 103
+    "downloads": 104
   },
   {
     "name": "Police Shootout",
@@ -151527,7 +151537,7 @@
   {
     "name": "Bodycam Real Shoot",
     "appid": "2668910",
-    "downloads": 12
+    "downloads": 13
   },
   {
     "name": "Railway Empire 2",
@@ -151967,7 +151977,7 @@
   {
     "name": "Red Dead Redemption 2",
     "appid": "1174180",
-    "downloads": 1309
+    "downloads": 1311
   },
   {
     "name": "Picontier",
@@ -153732,7 +153742,7 @@
   {
     "name": "Rise of the Tomb Raider",
     "appid": "391220",
-    "downloads": 215
+    "downloads": 216
   },
   {
     "name": "Puffin Planes",
@@ -154002,7 +154012,7 @@
   {
     "name": "Phasmophobia",
     "appid": "739630",
-    "downloads": 95
+    "downloads": 96
   },
   {
     "name": "PolyZ",
@@ -154387,7 +154397,7 @@
   {
     "name": "Portal 2",
     "appid": "620",
-    "downloads": 34
+    "downloads": 35
   },
   {
     "name": "People Playground",
@@ -156522,7 +156532,7 @@
   {
     "name": "Sackboy™: A Big Adventure",
     "appid": "1599660",
-    "downloads": 63
+    "downloads": 65
   },
   {
     "name": "Politon",
@@ -157167,7 +157177,7 @@
   {
     "name": "Project Zomboid",
     "appid": "108600",
-    "downloads": 259
+    "downloads": 260
   },
   {
     "name": "Princess & Conquest - Additional Characters #2",
@@ -159357,7 +159367,7 @@
   {
     "name": "Sekiro™: Shadows Die Twice",
     "appid": "814380",
-    "downloads": 479
+    "downloads": 480
   },
   {
     "name": "Seven Bullets Zombie Apocalypse",
@@ -160057,7 +160067,7 @@
   {
     "name": "Scania Truck Driving Simulator",
     "appid": "258760",
-    "downloads": 2
+    "downloads": 3
   },
   {
     "name": "SEDOMAIRI",
@@ -161272,7 +161282,7 @@
   {
     "name": "Shadow of the Tomb Raider",
     "appid": "750920",
-    "downloads": 138
+    "downloads": 139
   },
   {
     "name": "Sakura Bunny Girls",
@@ -162072,7 +162082,7 @@
   {
     "name": "Crime Simulator",
     "appid": "2737070",
-    "downloads": 127
+    "downloads": 128
   },
   {
     "name": "Seek Girl Ⅲ",
@@ -163717,7 +163727,7 @@
   {
     "name": "Palworld",
     "appid": "1623730",
-    "downloads": 809
+    "downloads": 810
   },
   {
     "name": "ScourgeBringer",
